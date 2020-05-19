@@ -107,8 +107,8 @@ body {
   color:#333;
   font-size:15px;
   padding:0em;
-  font: 90% sans;
   margin-top:0%;
+  font-family: Helvetica, arial, sans-serif;
 }
 
 div.c5 { text-align: center; }
