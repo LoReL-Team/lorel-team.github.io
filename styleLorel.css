@@ -96,10 +96,6 @@ td.bibtexnumber {
 
 #footer a:link, #footer a:visited {color: #4d88c3; }
 
-#borde-izq { background-image: url("images/bg_left.gif"); }
-
-#borde-der { background-image: url("images/bg_right.gif"); }
-
 body {
   overflow-y: scroll;
   background-image: url("images/bg.gif");
