@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="225.77mm"
-   height="83.383003mm"
-   viewBox="0 0 225.77 83.383003"
+   width="262.66699mm"
+   height="82.357002mm"
+   viewBox="0 0 262.66699 82.357002"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -417,15 +417,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="371.20096"
-     inkscape:cy="210.27943"
+     inkscape:cx="564.79783"
+     inkscape:cy="129.46723"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="1072"
-     inkscape:window-y="-8"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:snap-text-baseline="true" />
   <metadata
@@ -436,7 +436,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -444,32 +444,35 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-213.617)">
+     transform="translate(0,-214.643)">
     <g
-       id="g1029">
+       id="g998"
+       transform="translate(3.9877305e-5,6.9639584e-6)"
+       inkscape:export-xdpi="28.68"
+       inkscape:export-ydpi="28.68">
       <text
          id="text886"
-         y="235.57928"
-         x="86.451775"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.52184886;stroke-opacity:0.10699589"
+         y="237.08176"
+         x="84.004448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.76475906px;line-height:1.25;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.49567667;stroke-opacity:0.10699589"
          xml:space="preserve"><tspan
-           id="tspan888"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.52184886;stroke-opacity:0.10699589"
-           y="235.57928"
-           x="86.451775"
-           sodipodi:role="line">Lógica y</tspan><tspan
-           id="tspan892"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.52184886;stroke-opacity:0.10699589"
-           y="260.27371"
-           x="86.451775"
-           sodipodi:role="line">Reescritura</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.52184886;stroke-opacity:0.10699589"
-           y="284.96817"
-           x="86.451775"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.76475906px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.49567667;stroke-opacity:0.10699589"
+           y="237.08176"
+           x="84.004448"
            sodipodi:role="line"
-           id="tspan1731">para Lenguajes</tspan></text>
+           id="tspan899">Lógica y Reescritura</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.76475906px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.49567667;stroke-opacity:0.10699589"
+           y="260.53772"
+           x="84.004448"
+           sodipodi:role="line"
+           id="tspan1731">para Lenguajes</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.76475906px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.49567667;stroke-opacity:0.10699589"
+           y="283.99365"
+           x="84.004448"
+           sodipodi:role="line"
+           id="tspan897">de Programación</tspan></text>
       <g
-         transform="translate(13.264862,106.8085)"
+         transform="matrix(0.99968426,0,0,0.99968426,13.260816,107.36838)"
          id="g1699">
         <g
            id="g1515-1"
