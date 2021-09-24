@@ -14,7 +14,7 @@ td.bibtexnumber {
   width:1%;
 }
 
-#Home,#Publications,#Events,#Visitors,#Members,#Seminar,#Contact { display: inline; }
+#Home,#Publications,#Events,#Visitors,#Members,#Seminar,#Address { display: inline; }
 
 
 .abh {
@@ -54,11 +54,11 @@ td.bibtexnumber {
   border-bottom-left-radius:10px;
 }
 
-#menuContact {
+#menuAddress {
   border-top-right-radius:10px;
 }
 
-#menuHome,#menuPublications,#menuEvents,#menuVisitors,#menuProjects,#menuMembers,#menuSeminar,#menuContact{
+#menuHome,#menuPublications,#menuEvents,#menuVisitors,#menuProjects,#menuMembers,#menuSeminar,#menuAddress{
   background:#eAeAeA;
   border-bottom-color:#fff;
   border-top-color:#fff;
