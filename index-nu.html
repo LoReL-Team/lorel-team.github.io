@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+
+<HTML lang='en'>
+  <HEAD>
+    <TITLE>LoReL Team</TITLE>
+    <meta name="viewport" content="width=device-width">
+    <META http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <META content="LoReL Team" name="description">
+    <META content="EN" name="language">
+    <LINK rel="shortcut icon" href="images/favicon2.png" type="image/x-icon">
+    <LINK rel="StyleSheet" href="styleLorel.css" type="text/css">
+    <script>
+      function showHide(ID) {
+	      switch (ID) {
+		      case 'Home':
+			document.getElementById('Home').style.display = 'block';
+			document.getElementById('HomeP').style.display = 'inline-block';
+			document.getElementById('HomeE').style.display = 'inline-block';
+			document.getElementById('HomeV').style.display = 'inline-block';
+			document.getElementById('HomeS').style.display = 'inline-block';
+			document.getElementById('NoEv').style.display = 'block';
+			document.getElementById('NoPu').style.display = 'block';
+			document.getElementById('NoV').style.display = 'block';
+			document.getElementById('NoS').style.display = 'block';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#eaeaea';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Publications':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'inline-block';
+			document.getElementById('HomeE').style.display = 'none';
+			document.getElementById('HomeV').style.display = 'none';
+			document.getElementById('HomeS').style.display = 'none';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'none';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'block';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#eaeaea';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Events':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'none';
+			document.getElementById('HomeE').style.display = 'inline-block';
+			document.getElementById('HomeV').style.display = 'none';
+			document.getElementById('HomeS').style.display = 'none';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'none';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'block';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#eaeaea';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Visitors':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'none';
+			document.getElementById('HomeE').style.display = 'none';
+			document.getElementById('HomeV').style.display = 'inline-block';
+			document.getElementById('HomeS').style.display = 'none';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'none';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'block';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#eaeaea';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Projects':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'none';
+			document.getElementById('HomeE').style.display = 'none';
+			document.getElementById('HomeV').style.display = 'none';
+			document.getElementById('HomeS').style.display = 'none';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'none';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'block';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#eaeaea';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Members':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'none';
+			document.getElementById('HomeE').style.display = 'none';
+			document.getElementById('HomeV').style.display = 'none';
+			document.getElementById('HomeS').style.display = 'none';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'none';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'block';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#eaeaea';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Seminar':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'none';
+			document.getElementById('HomeE').style.display = 'none';
+			document.getElementById('HomeV').style.display = 'none';
+			document.getElementById('HomeS').style.display = 'inline-block';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'block';
+			document.getElementById('SNoHome').style.display = 'block';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'block';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#eaeaea';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		      case 'Address':
+			document.getElementById('Home').style.display = 'none';
+			document.getElementById('HomeP').style.display = 'none';
+			document.getElementById('HomeE').style.display = 'none';
+			document.getElementById('HomeV').style.display = 'none';
+			document.getElementById('HomeS').style.display = 'none';
+			document.getElementById('NoEv').style.display = 'none';
+			document.getElementById('NoPu').style.display = 'none';
+			document.getElementById('NoV').style.display = 'none';
+			document.getElementById('NoS').style.display = 'none';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'block';
+			document.getElementById('menuHome').style.background = '#ccc';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#eaeaea';
+			break;
+			default:
+			document.getElementById('Home').style.display = 'block';
+			document.getElementById('HomeP').style.display = 'inline-block';
+			document.getElementById('HomeE').style.display = 'inline-block';
+			document.getElementById('HomeV').style.display = 'inline-block';
+			document.getElementById('HomeS').style.display = 'inline-block';
+			document.getElementById('NoEv').style.display = 'block';
+			document.getElementById('NoPu').style.display = 'block';
+			document.getElementById('NoV').style.display = 'block';
+			document.getElementById('NoS').style.display = 'block';
+			document.getElementById('SNoHome').style.display = 'none';
+			document.getElementById('Publications').style.display = 'none';
+			document.getElementById('Events').style.display = 'none';
+			document.getElementById('Visitors').style.display = 'none';
+			document.getElementById('Projects').style.display = 'none';
+			document.getElementById('Members').style.display = 'none';
+			document.getElementById('Seminar').style.display = 'none';
+			document.getElementById('Address').style.display = 'none';
+			document.getElementById('menuHome').style.background = '#eaeaea';
+			document.getElementById('menuPublications').style.background = '#ccc';
+			document.getElementById('menuEvents').style.background = '#ccc';
+			document.getElementById('menuVisitors').style.background = '#ccc';
+			document.getElementById('menuProjects').style.background = '#ccc';
+			document.getElementById('menuMembers').style.background = '#ccc';
+			document.getElementById('menuSeminar').style.background = '#ccc';
+			document.getElementById('menuAddress').style.background = '#ccc';
+			break;
+		    }
+	    }
+    </script>
+
+    <script>
+      function tab(){
+	      var query = location.search.substring(1);
+	      var pair = query.split("=");
+	      showHide(pair[1]);
+	      return pair[1];
+	    }
+    </script>
+  </HEAD>
+  <BODY>
+    <div id="body">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	  <td width="1%" class="fondo"></td>
+	  <td width="98%" valign="top">
+	    <table width='100%' cellpadding="3" cellspacing="0" border="0">
+	      <tr>
+		<td>
+		  <table>
+		    <tr>
+		      <td>
+			<img class="position" src="images/Logo-LoReL.png" alt="[LoReL]" height="93">
+			&nbsp;
+		      </td>
+		      <td style="border-left: 1px dashed; padding: 10px;">
+			<a href="http://www.unq.edu.ar"><img src="images/UNQ.png" alt="[UNQ]" height="93"></a>
+		      </td>
+		      <td align="center">
+			<font size="+5">&amp;</font>
+		      </td>
+		      <td>
+			<a href="http://icc.fcen.uba.ar"><img src="images/ICC-327x93.png" alt="[ICC]" height="93"></a>
+			<a href="http://www.conicet.gob.ar"><img src="images/CONICET.png" alt="[CONICET]" height="93"></a>
+		      </td>
+		    </tr>
+		  </table>
+		  <br>
+		  <div class='abh'>
+		    <table border=0 cellspacing="0">
+		      <tr>
+			<td id='menuHome'><a href="" onclick="showHide('Home');return false;">Home</a></td>
+			<td id='menuMembers'><a href="" onclick="showHide('Members');return false;">Members</a></td>
+			<td id='menuPublications'><a href="" onclick="showHide('Publications');return false;">Publications</a></td>
+			<td id='menuEvents'><a href="" onclick="showHide('Events');return false;">Events</a></td>
+			<td id='menuVisitors'><a href="" onclick="showHide('Visitors');return false;">Visitors</a></td>
+			<td id='menuSeminar'><a href="" onclick="showHide('Seminar');return false;">Seminar</a></td>
+			<td id='menuProjects'><a href="" onclick="showHide('Projects');return false;">Projects</a></td>
+			<td style="padding: 10px;" id='menuAddress'><a href="" onclick="showHide('Address');return false;">Address</a></td>
+		      </tr>
+		    </table>
+		  </div>
+		  <table width='100%'>	
+		    <!-- Home tab -->
+		    <tr id="Home">
+		      <td width='100%'>
+			<p class='texto'>LoReL: Logic and Rewriting for Programming Languages, is a research team at <a href="http://www.unq.edu.ar">UNQ</a> and <a href="http://icc.fcen.uba.ar">ICC (UBA/CONICET)</a>. The topics of interest include: Rewriting and Lambda Calculus, Type Theory, and Logical Methods with a focus on their application to Programming Languages, both, for classical and quantum computing.</p>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+			<h3 id="NoPu">Latest publications</h3>
+			<ul style="margin-bottom:0px" id="HomeP">
+			  <li>
+			    R. Romero and A. D&iacute;az-Caro.
+			    <a href="https://arxiv.org/abs/2106.06633"><strong>A note on confluence in typed probabilistic lambda calculi</strong></a><br>
+			    In <em>Proceedings of LSFA 2021</em>, to appear at <em>EPTCS</em>, 2021.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro.
+			    <strong>A quick overview on the quantum control approach to the lambda calculus</strong><br>
+			    In <em>Proceedings of LSFA 2021</em> (invited paper), to appear at <em>EPTCS</em>, 2021.
+			  </li>
+			  <li>
+			    D. Kesner and A. Viso.
+			    <a href="https://arxiv.org/abs/2105.00564"><strong>Encoding Tight Typing in a Unified Framework</strong></a><br>
+			    In <em>Procedings of CSL 2022</em>, to appear at <em>LIPIcs</em>, 2021.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro and G. Dowek.
+			    <a href="https://doi.org/10.1007/978-3-030-85315-0_11"><strong>A New Connective in Natural Deduction, and its Application to Quantum Computing</strong></a><br>
+			    In <em>Procedings of ICTAC 2021</em>, volume 12819 of <em>Lecture Notes in Computer Science</em>, pages 175-193, 2021.
+			  </li>
+			  <li>
+			    H. C. Melgratti, C. Antares Mezzina, and G. Michele Pinna.
+			    <a href="https://doi.org/10.1109/LICS52264.2021.9470623"><strong>A distributed operational view of Reversible Prime Event Structures</strong></a><br>
+			    In <em>Procedings of LICS 2021</em>, 2021.
+			  </li>
+			</ul>
+			<ul style="margin-top:0px" id="Publications">
+			  <li>
+			    P. Barenbaum and T. Freund.
+			    <a href="https://doi.org/10.1109/LICS52264.2021.9470649"><strong>A Constructive Logic with Classical Proofs and Refutations</strong></a><br>
+			    In <em>Procedings of LICS 2021</em>, 2021.
+			  </li>
+			  <li>
+			    H. C. Melgratti, C. Antares Mezzina, and G. Michele Pinna.
+			    <a href="https://doi.org/10.1007/978-3-030-79837-6_7"><strong>Towards a Truly Concurrent Semantics for Reversible CSS</strong></a><br>
+			    In <em>ACM Procedings of RC 2021</em>, volume 12805 of <em>Lecture Notes in Computer Science</em>, pages 109-125, 2021.
+			  </li>
+			  <li>
+			    C. F. Sottile, A. D&iacute;az-Caro, and P. E. Mart&iacute;nez L&oacute;pez.
+			    <a href="https://doi.org/10.1145/3462172.3462198"><strong>Polymorphic System I</strong></a><br>
+			    In <em>ACM Procedings of IFL 2020</em>, pages 127-137, 2020.
+			  </li>
+			  <li>
+			    P. Barenbaum, F. Lochbaum, and M. Milicich.
+			    <a href="https://doi.org/10.1007/978-3-030-64276-1_13"><strong>Semantics of a Relational &lambda;-Calculus</strong></a><br>
+			    In <em>Proceedings of ICTAC 2020</em>, volume 12545 of <em>Lecture Notes in Computer Science</em>, pages 242-261, 2020.
+			  </li>
+			  <li>
+			    P. Barenbaum and E. Bonelli.
+			    <a href="https://doi.org/10.1145/3414080.3414091"><strong>Rewrites as Terms through Justification Logic</strong></a><br>
+			    In <em>Proceedings of PPDP 2020</em>, article 12, ACM, 2020.
+			  </li>
+			  <li>
+			    A. Mart&iacute;n, A. R&iacute;os, and A. Viso.
+			    <a href="https://doi.org/10.1016/j.entcs.2020.08.006"><strong>Pure Pattern Calculus a la de Bruijn</strong></a><br>
+			    In <em>Proceedings of LSFA 2020</em>, volume 351 of Electronic Notes in Theoretical Computer Science, pages 95-113, 2020.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro and O. Malherbe.
+			    <a href="https://doi.org/10.1007/s10485-020-09598-7"><strong>A Categorical Construction for the Computational Definition of Vector Spaces</strong></a><br>
+			    <em>Applied Categorical Structures</em> 28(5):807-844, 2020.
+			  </li>
+			  <li>
+			    A. Bucciarelli, D. Kesner, A. R&iacute;os, and A. Viso.
+			    <a href="https://doi.org/10.1007/978-3-030-59025-3_2"><strong>The Bang Calculus Revisited</strong></a><br>
+			    In <em>Proceedings of FLOPS 2020</em>, volume 12073 of <em>Lecture Notes in Computer Science</em>, pages 13-32, 2020.
+			  </li>
+			  <li>
+			    B. Accattoli and A. D&iacute;az-Caro.
+			    <a href="https://doi.org/10.1007/978-3-030-59025-3_3"><strong>Functional Pearl: The Distributive &lambda;-Calculus</strong></a><br>
+			    In <em>Proceedings of FLOPS 2020</em>, volume 12073 of <em>Lecture Notes in Computer Science</em>, pages 33-49, 2020.
+			  </li>
+			  <li>
+			    D. Kesner, E. Bonelli, and A. Viso.
+			    <a href="http://dx.doi.org/10.4230/LIPIcs.CSL.2020.4"><strong>Strong Bisimulation for Control Operators (invited talk)</strong></a><br>
+			    In <em>Proceedings of CSL 2020</em>, volume 152 of <em>Leibniz International Proceedings in Informatics (LIPIcs)</em>, article 4, 2020.
+			  </li>
+			  <li>
+			    F. Olmedo and A. D&iacute;az-Caro.
+			    <a href="https://arxiv.org/abs/1911.11247"><strong>Runtime Analysis of Quantum Programs: A Formal Approach</strong></a><br>
+			    Extended abstract at <em>PLanQC</em>. 2020.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro, G. Dowek, and J. P. Rinaldi.
+			    <a href="https://doi.org/10.1016/j.biosystems.2019.104012"><strong>Two linearities for quantum computing in the lambda calculus</strong></a><br>
+			    Postproceedings of TPNC'2017 at BioSystems 186:104012, 2019.
+			  </li>
+			  <li>
+			    M. Ayala-Rinc&oacute;n, E. Bonelli, J. Edi, and A. Viso.
+			    <a href="https://doi.org/10.1016/j.tcs.2019.02.018"><strong>Typed path polymorphism</strong></a><br>
+			    Theoretical Computer Science 781:111-130, 2019.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro and O. Malherbe.
+			    <a href="https://staff.dc.uba.ar/adiazcaro/ACT-2019-abstract.pdf"><strong>A categorical construction for the computational definition of vector spaces (extended abstract)</strong></a><br>
+			    Extended abstract at <em>ACT 2019</em>. 2019.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro and G. Dowek.
+			    <a href="https://doi.org/10.4230/LIPIcs.FSCD.2019.14"><strong>Proof Normalisation in a Logic Identifying Isomorphic Propositions</strong></a><br>
+			    In H. Geuvers, editor, <em>Proceedings of FSCD 2019</em>, volume 131 of <em>Leibniz International Proceedings in Informatics (LIPIcs)</em>, article 14, 2019.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro, M. Guillermo, A. Miquel, and B. Valiron.
+			    <a href="http://dx.doi.org/10.1109/LICS.2019.8785834"><strong>Realizability in the Unitary Sphere</strong></a><br>
+			    In <em>Proceedings of LICS 2019</em>, 2019.
+			  </li>
+			  <li>
+			    P. Barenbaum and G. Ciruelos.
+			    <a href="https://doi.org/10.1007/978-3-030-02768-1_2"><strong>Factoring Derivation Spaces via Intersection Types</strong></a><br>
+			    In S.&nbsp;Ryu, editor, <em>Proceedings of APLAS 2018</em>, volume 11275 of <em>Lecture Notes in Computer Science</em>, pages 22-44, 2018.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro and M. Villagra.
+			    <a href="https://doi.org/10.1007/978-3-030-04070-3_21"><strong>Classically time-controlled quantum automata</strong></a><br>
+			    In C.&nbsp;Mart&iacute;n-Vide, M.&nbsp;O'Neill, and M.A.&nbsp;Vega-Rodr&iacute;guez, editors, <em>Proceedings of TPNC 2018</em>, volume 11324 of <em>Lecture Notes in Computer Science</em>, pages 266-278, 2018.
+			  </li>
+			  <li>
+			    A. D&iacute;az-Caro and O. Malherbe.
+			    <a href="https://doi.org/10.1016/j.entcs.2019.07.006"><strong>A concrete categorical semantics for Lambda-S</strong></a><br>
+			    In <em>Proceedings of LSFA 2018</em>, volume 344 of Electronic Notes in Theoretical Computer Science, pages 83-100, 2019.
+			  </li>
+			  <li>
+			    P. Barenbaum, E. Bonelli, and K. Mohamed.
+			    <a href="http://dx.doi.org/10.1145/3236950.3236972"><strong>Pattern Matching and Fixed Points: Resource Types and Strong Call-By-Need.</strong></a><br>
+			    In D.&nbsp;Sabel, editor,  <em>Proceedings of PPDP 2018</em>, ACM, Article 6, 2018.
+			  </li>
+			  <li>
+			    D.&nbsp;Kesner, A.&nbsp;R&iacute;os, and A.&nbsp;Viso.
+			    <a href="http://dx.doi.org/10.1007/978-3-319-89366-2_13"><strong>Call-by-need, neededness and all that.</strong></a><br>
+			    In C.&nbsp;Baier and U.&nbsp;Dal&nbsp;Lago, editors, <em>Proceedings of FoSSaCS 2018</em>, volume 10803 of <em>Lecture Notes in Computer Science</em>, pages 241-257, 2018.
+			  </li>
+			  <li>
+			    J.&nbsp;Edi, A.&nbsp;Viso, and E.&nbsp;Bonelli.
+			    <a href="http://dx.doi.org/10.4230/LIPIcs.TYPES.2015.6"><strong>Efficient type checking for path polymorphism.</strong></a><br>
+			    In T.&nbsp;Uustalu, editor, <em>Postproceedings of TYPES 2015</em>, volume 69 of <em>Leibniz International Proceedings in Informatics (LIPIcs)</em>, pages 6:1-6:23, 2018.
+			  </li>
+			  <li>
+			    A.&nbsp;D&iacute;az-Caro and G.&nbsp;Dowek.
+			    <a href="http://dx.doi.org/10.1007/978-3-319-71069-3_22"><strong>Typing quantum superpositions and measurement.</strong></a><br>
+			    In C.&nbsp;Mart&iacute;n-Vide, R.&nbsp;Neruda, and M.&nbsp;A. Vega-Rodr&iacute;guez, editors, <em>Proceedings of TPNC 2017</em>, volume 10687 of <em>Lecture Notes in Computer Science</em>, pages 281-293, 2017.
+			  </li>
+			  <li>
+			    A.&nbsp;D&iacute;az-Caro.
+			    <a href="http://dx.doi.org/10.1007/978-3-319-71237-6_22"><strong>A lambda calculus for density matrices with classical and probabilistic controls.</strong></a><br>
+			    In B.-Y.&nbsp;E. Chang, editor, <em>Proceedings of APLAS 2017</em>, volume 10695 of <em>Lecture Notes in Computer Science</em>, pages 448-467, 2017.
+			  </li>
+			  <li>
+			    A.&nbsp;D&iacute;az-Caro and G.&nbsp;Mart&iacute;nez.
+			    <a href="http://dx.doi.org/10.1016/j.entcs.2018.10.008"><strong>Confluence in probabilistic rewriting.</strong></a><br>
+			    In S.&nbsp;Alves and R.&nbsp;Wassermann, editors, <em>Preproceedings of LSFA 2017</em>, volume 338 of <em>Electronic Notes in Theoretical Computer Science</em>, pages 115-131, 2018.
+			  </li>
+			  <li>
+			    P.&nbsp;Arrighi, A.&nbsp;D&iacute;az-Caro, and B.&nbsp;Valiron.
+			    <a href="http://dx.doi.org/10.1016/j.ic.2017.04.001"><strong>The vectorial lambda-calculus.</strong></a><br>
+			    <em>Information and Computation</em>, 254(1):105-139, 2017.
+			  </li>
+			  <li>
+			    E.&nbsp;Bonelli, D.&nbsp;Kesner, C.&nbsp;Lombardi, and A.&nbsp;R&iacute;os.
+			    <a href="http://dx.doi.org/10.1016/j.tcs.2017.01.025"><strong>On abstract normalisation beyond neededness.</strong></a><br>
+			    <em>Theoretical Computer Science</em>, 672:36-63, 2017.
+			  </li>
+			  <li>
+			    M.&nbsp;Coppo, M.&nbsp;Dezani-Ciancaglini, A.&nbsp;D&iacute;az-Caro, I.&nbsp;Margaria, and M.&nbsp;Zacchi.
+			    <a href="http://dx.doi.org/10.4204/EPTCS.242.5"><strong>Retractions in intersection types.</strong></a><br>
+			    In N.&nbsp;Kobayashi, editor, <em>Proceedings of ITRS 2016</em>, volume 242 of <em>Electronic Proceedings in Theoretical Computer Science</em>, pages 31-47, 2017.
+			  </li>
+			  <li>
+			    A.&nbsp;Viso, E.&nbsp;Bonelli, and M.&nbsp;Ayala-Rinc&oacute;n.
+			    <a href="http://dx.doi.org/10.1016/j.entcs.2016.06.015"><strong>Type soundness for path polymorphism.</strong></a><br>
+			    In M.&nbsp;Benevides and R.&nbsp;Thiemann, editors, <em>Proceedings LSFA 2015</em>, volume 323 of <em>Electronic Notes in Theoretical Computer Science</em>, pages 235-251, 2016.
+			  </li>
+			  <li>
+			    A.&nbsp;D&iacute;az-Caro and A.&nbsp;Yakary&#305;lmaz.
+			    <a href="http://dx.doi.org/10.1007/978-3-319-34171-2_11"><strong>Affine computation and affine automaton.</strong></a><br>
+			    In A.&nbsp;Kulikov and G.&nbsp;Woeginger, editors, <em>Proceedings of CSR 2016</em>, volume 9691 of <em>Lecture Notes in Computer Science</em>, pages 146-160, 2016.
+			  </li>
+			  <li>
+			    A.&nbsp;D&iacute;az-Caro and P.&nbsp;E. Mart&iacute;nez&nbsp;L&oacute;pez.
+			    <a href="http://dx.doi.org/10.1145/2897336.2897346"><strong>Isomorphisms considered as equalities: Projecting functions and enhancing partial application through an implementation of &lambda;<sup>+</sup>.</strong></a><br>
+			    In R.&nbsp;Lammel, editor, <em>Proceedings of IFL 2015</em>, ACM, pages 9:1-9:11, 2015.
+			  </li>
+			  <li>
+			    F.&nbsp;Bavera and E.&nbsp;Bonelli.
+			    <a href="http://dx.doi.org/10.1093/logcom/exv037"><strong>Justification logic and audited computation.</strong></a><br>
+			    <em>Journal of Logic and Computation</em>, exv037, 2015.
+			  </li>
+			  <li>
+			    B.&nbsp;Accattoli, P.&nbsp;Barenbaum, and D.&nbsp;Mazza.
+			    <a href="http://dx.doi.org/10.1007/978-3-319-26529-2_13"><strong>A strong distillery.</strong></a><br>
+			    In X.&nbsp;Feng and S.&nbsp;Park, editors, <em>Proceedings of APLAS 2015</em>, volume 9458 of <em>Lecture Notes in Computer Science</em>, pages 231-250, 2015.
+			  </li>
+			  <li>
+			    A.&nbsp;Assaf, A.&nbsp;D&iacute;az-Caro, S.&nbsp;Perdrix, C.&nbsp;Tasson, and B.&nbsp;Valiron.
+			    <a href="http://dx.doi.org/10.2168/LMCS-10(4:8)2014"><strong>Call-by-value, call-by-name and the vectorial behaviour of the algebraic &lambda;-calculus.</strong></a><br>
+			    <em>Logical Methods in Computer Science</em>, 10(4:8), 2014.
+			  </li>
+			  <li>
+			    B.&nbsp;Accattoli, P.&nbsp;Barenbaum, and D.&nbsp;Mazza.
+			    <a href="http://dx.doi.org/10.1145/2628136.2628154"><strong>Distilling abstract machines.</strong></a><br>
+			    In M.&nbsp;W. Bailey, R.&nbsp;Balasubramonian, A.&nbsp;Davis, and S.&nbsp;Adve, editors, <em>Proceedings of ICFP 2014</em>, volume 49(9) of <em>ACM SIGPLAN Notices</em>, pages 363-376, 2014.
+			  </li>
+			  <li>
+			    C.&nbsp;Lombardi, A.&nbsp;R&iacute;os, and R.&nbsp;de&nbsp;Vrijer.
+			    <a href="http://dx.doi.org/10.1007/978-3-319-08918-8_21"><strong>Proof terms for infinitary rewriting.</strong></a><br>
+			    In G.&nbsp;Dowek, editor, <em>Proceedings of RTA 2014</em>, volume 8560 of <em>Lecture Notes in Computer Science</em>, pages 303-318, 2014.
+			  </li>
+			  <li>
+			    E.&nbsp;Bonelli and G.&nbsp;Steren.
+			    <a href="http://dx.doi.org/10.1007/s11787-014-0098-0"><strong>Hypothetical logic of proofs.</strong></a><br>
+			    <em>Logica Universalis</em>, 8(1):103-140, 2014.
+			  </li>
+			  <li>
+			    B.&nbsp;Accattoli, E.&nbsp;Bonelli, D.&nbsp;Kesner, and C.&nbsp;Lombardi.
+			    <a href="http://dx.doi.org/10.1145/2535838.2535886"><strong>A nonstandard standardization theorem.</strong></a><br>
+			    In M.&nbsp;W. Bailey, editor, <em>Proceedings of POPL 2014</em>, volume 49(1) of <em>ACM SIGPLAN Notices</em>, pages 659-670, 2014.
+			  </li>
+			  <li>
+			    G.&nbsp;Steren and E.&nbsp;Bonelli.
+			    <a href="http://dx.doi.org/10.1016/j.entcs.2013.12.013"><strong>Intuitionistic hypothetical logic of proofs.</strong></a><br>
+			    In V.&nbsp;de Paiva, M.&nbsp;Benevides, V.&nbsp;Nigam, and E.&nbsp;Pimentel, editors, <em>Proceedings of IMLA 2013</em>, volume 300 of <em>Electronic Notes in Theoretical Computer Science</em>, pages 89-103, 2014.
+			  </li>
+			  <li>
+			    E.&nbsp;Bonelli, D.&nbsp;Kesner, C.&nbsp;Lombardi, and A.&nbsp;Rios.
+			    <a href="http://dx.doi.org/10.4230/LIPIcs.RTA.2012.117"><strong>Normalisation for dynamic pattern calculi.</strong></a><br>
+			    In A.&nbsp;Tiwari, editor, <em>Proceedings of RTA 2012</em>, volume&nbsp;15 of <em>Leibniz International Proceedings in Informatics (LIPIcs)</em>, pages 117-132, 2012.
+			  </li>
+			  <li>
+			    E.&nbsp;Bonelli and F.&nbsp;Feller.
+			    <a href="http://dx.doi.org/10.1016/j.apal.2011.09.007"><strong>Justification logic as a foundation for certifying mobile computation.</strong></a><br>
+			    <em>Annals of Pure and Applied Logic</em>, 163(7):935-950, 2012.
+			  </li>
+			  <li>
+			    D.&nbsp;Kesner, C.&nbsp;Lombardi, and A.&nbsp;R&iacute;os.
+			    <a href="http://dx.doi.org/10.4204/EPTCS.49.5"><strong>A standardisation proof for algebraic pattern calculi.</strong></a><br>
+			    In E.&nbsp;Bonelli, editor, <em>Proceedings HOR 2010</em>, volume&nbsp;49 of <em>Electronic Proceedings in Theoretical Computer Science</em>, pages 58-72, 2011.
+			  </li>
+			  <li>
+			    A.&nbsp;Mendelzon, A.&nbsp;R&iacute;os, and B.&nbsp;Ziliani.
+			    <a href="http://dx.doi.org/10.4204/EPTCS.49.1"><strong>Swapping: a natural bridge between named and indexed explicit substitution calculi.</strong></a><br>
+			    In E.&nbsp;Bonelli, editor, <em>Proceedings HOR 2010</em>, volume&nbsp;49 of <em>Electronic Proceedings in Theoretical Computer Science</em>, pages 1-15, 2011.
+			  </li>
+			  <li>
+			    A.&nbsp;Arbiser, A.&nbsp;Miquel, and A.&nbsp;R&iacute;os.
+			    <a href="http://dx.doi.org/10.1017/S0956796809007369"><strong>The &lambda;-calculus with constructors: Syntax, confluence and separation.</strong></a><br>
+			    <em>Journal of Functional Programming</em>, 19(5):581-631, 2009.
+			  </li>
+			</ul>
+		      </td>
+		    </tr>
+		    <tr id="Members">
+		      <td>
+			<table cellspacing="10" width="100%">
+			  <tr>
+			    <td width="100%" colspan="6" align="center">
+			      <h3>Permanent members</h3>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td colspan="6" width="100%">
+			      <table cellspacing="10" width="100%">
+				<tr>
+				  <td width="(100/5)%" align="center">
+				    <a href="https://foones.github.io/">Pablo<br>Barenbaum</a><br>
+				    <a href="https://foones.github.io/"><img src="images/PabloBarenbaum.jpg" style="border: 0;" alt="[Barenbaum]"></a>
+				    <br>&nbsp;
+				  </td>
+				  <td width="(100/5)%" align="center"> 
+				    <a href="http://staff.dc.uba.ar/adiazcaro">Alejandro<br>D&iacute;az-Caro</a><br>
+				    <a href="http://staff.dc.uba.ar/adiazcaro"><img src="images/AlejandroDiazCaro.jpg" style="border: 0;" alt="[Diaz-Caro]"></a><br>
+				    (Team leader)
+				  </td>
+				  <td width="(100/5)%" align="center"> 
+				    Pablo E. "Fidel"<br>Mart&iacute;nez L&oacute;pez<br>
+				    <img src="images/Fidel.jpg" style="border: 0;" alt="[Martinez-Lopez]">
+				    <br>&nbsp;
+				  </td>
+				  <td width="(100/5)%" align="center">
+				    <a href="https://lafhis.dc.uba.ar/~melgratti">Hern&aacute;n<br>Melgratti</a><br>
+				    <a href="https://lafhis.dc.uba.ar/~melgratti"><img src="images/HernanMelgratti.jpg" style="border: 0;" alt="[Melgratti]"></a>
+				    <br>&nbsp;
+				  </td>
+				  <td width="(100/5)%" align="center">
+				    <a href="https://dblp.uni-trier.de/pers/hd/r/R=iacute=os:Alejandro">Alejandro<br>R&iacute;os</a><br>
+				    <a href="https://dblp.uni-trier.de/pers/hd/r/R=iacute=os:Alejandro"><img src="images/AlejandroRios.jpg" style="border: 0;" alt="[Rios]"></a>
+				    <br>&nbsp;
+				  </td>
+				</tr>
+			      </table>
+			    </td>
+			  </tr>
+			  <tr><td width="100%" colspan="6"><hr></td></tr>
+			  <tr>
+			    <td width="(100/3)%" colspan="2" align="center">
+			      <h3>Associated members</h3>
+			    </td>
+			    <td width="(100/6)%"></td>
+			    <td width="(100/2)%" colspan="3" align="center">
+			      <h3>PhD Students</h3>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td width="(100/6)%" align="center">
+			      <a href="https://firuzz.github.io">Andr&eacute;s<br>Viso</a><br>
+			      <a href="https://firuzz.github.io"><img src="images/AndresViso.jpg" style="border: 0;" alt="[Viso]"></a>
+			    </td>
+			    <td width="(100/6)%" align="center"> 
+			      <a href="https://ebonelli.github.io">Eduardo<br>Bonelli</a><br>
+			      <a href="https://ebonelli.github.io"><img src="images/EduardoBonelli.jpg" style="border: 0;" alt="[Bonelli]"></a>
+			    </td>
+			    <td width="(100/6)%">
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			      &nbsp;
+			    </td>
+			    <td width="(100/6)%" align="center">
+			      <a href="https://mivnisky.github.io/">Malena<br> Ivnisky</a><br>
+			      <img src="images/MalenaIvnisky.jpg" style="border: 0;" alt="[Ivnisky]">
+			    </td>
+			    <td width="(100/6)%" align="center">
+			      <a href="https://leafarromero.github.io/">Rafael<br> Romero</a><br>
+			      <img src="images/LucasRomero.jpg" style="border: 0;" alt="[Romero]">
+			    </td>
+			    <td width="(100/6)%" align="center">
+			      <a href="https://cfsottile.github.io/">Cristian F.<br>Sottile</a><br>
+			      <a href="https://cfsottile.github.io/"><img src="images/CristianSottile.jpg" style="border: 0;" alt="[Sottile]"></a>
+			    </td>
+			  </tr>
+			  <tr><td width="100%" colspan="6"><hr></td></tr>
+			  <tr>
+			    <td width="100%" colspan="6" align="center">
+			      <h3><em>Licenciatura</em> Students (eq. Masters in the EU system)</h3>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td colspan="6" width="100%">
+			      <table cellspacing="10" width="100%">
+				<tr>
+				  <td width="(100/5)%" align="center">
+				    Francisco<br> Giordano<br>
+				    <img src="images/FranciscoGiordano.jpg" style="border: 0;" alt="[Giordano]">
+				  </td>
+				  <td width="(100/5)%" align="center"> 
+				    Ignacio<br> Grima<br>
+				    <img src="images/IgnacioGrima.jpg" style="border: 0;" alt="[Grima]">
+				  </td>
+				  <td width="(100/5)%" align="center"> 
+				    Alexis<br> Mart&iacute;n<br>
+				    <img src="images/NoFotoM.png" style="border: 0;" alt="[Martin]">
+				  </td>
+				  <td width="(100/5)%" align="center">
+				    Mariana<br> Milicich<br>
+				    <img src="images/MarianaMilicich.jpg" style="border: 0;" alt="[Milicich]">
+				  </td>
+				  <td width="(100/5)%" align="center">
+				    Nicol&aacute;s<br> Monz&oacute;n<br>
+				    <img src="images/NicolasMonzon.jpg" style="border: 0;" alt="[Monzon]">
+				  </td>
+				</tr>
+			      </table>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td colspan="6" width="100%">
+			      <table cellspacing="10" width="100%">
+				<tr>
+				  <td width="(100/2)%" align="center"> 
+				    Nicol&aacute;s<br> San Mart&iacute;n<br>
+				    <img src="images/NicolasSanMartin.png" style="border: 0;" alt="[San Martin]">
+				  </td>
+				  <td width="(100/2)%" align="center">
+				    Mart&iacute;n<br> Villagra<br>
+				    <img src="images/MartinVillagra.jpg" style="border: 0;" alt="[Villagra]">
+				  </td>
+				</tr>
+			      </table>
+			    </td>
+			  </tr>
+			  <tr><td width="100%" colspan="6"><hr></td></tr>
+			  <tr>
+			    <td width="50%" colspan="3" style="vertical-align: top">
+			      <h3>Former students</h3>
+			      <ul>
+				<li>Teodoro Freund (Undergrad student. Graduated 2021)</li>
+				<li>Federico Lochbaum (Undergrad student. Graduated 2021)</li>
+				<li>Francisco Noriega (Undergrad student. Graduated 2020)</li>
+				<li>Agust&iacute;n Borgna (Undergrad student. Graduated 2019)</li>
+				<li>Gonzalo Ciruelos (Undergrad student. Graduated 2018)</li>
+				<li>Juan Pablo Rinaldi (Undergrad student. Graduated 2018)</li>
+				<li>Guido Mart&iacute;nez (Undergrad student. Graduated 2017)</li>
+				<li>Juan Edi (Undergrad student. Graduated 2015)</li>
+				<li>Carlos Lombardi (PhD student. Graduated 2014)</li>
+				<li>Gabriela Steren (PhD student. Gratuated 2014)</li>
+			      </ul>
+			    </td>
+			    <td width="50%" colspan="3" style="vertical-align: top">
+			      <h3>Collaborators</h3>
+			      <ul>
+				<li><a href="https://sites.google.com/site/beniaminoaccattoli/">Beniamino Accattoli</a> (Inria, France)</li>
+				<li><a href="https://lmf.cnrs.fr/Perso/PabloArrighi">Pablo Arrighi</a> (LMF, Universit&eacute; Paris-Saclay, France)</li>
+				<li><a href="http://www.mat.unb.br/~ayala/">Mauricio Ayala Rinc&oacute;n</a> (Universidade de Bras&iacute;lia, Brazil)</li>
+				<li><a href="http://www.lsv.fr/~dowek/">Gilles Dowek</a> (LMF, Inria &amp; ENS Paris-Saclay, France)</li>
+				<li><a href="https://www.irif.fr/~kesner/">Delia Kesner</a> (IRIF, Universit&eacute; Paris-Diderot, France)</li>
+				<li>Octavio Malherbe (Universidad de la Rep&uacute;blica, Uruguay)</li>
+				<li><a href="https://users.dcc.uchile.cl/~folmedo/">Federico Olmedo</a> (Universidad de Chile, Chile)</li>
+				<li><a href="https://members.loria.fr/SPerdrix/">Simon Perdrix</a> (LORIA, CNRS, France)</li>
+				<li><a href="http://www.monoidal.net/">Beno&icirc;t Valiron</a> (LMF, CentraleSup&eacute;lec, France)</li>
+				<li><a href="http://www.cc.pol.una.py/~mvillagra">Marcos Villagra</a> (Universidad Nacional de Asunci&oacute;n, Paraguay)</li>
+				<li><a href="http://www.cs.vu.nl/~rdv/">Roel de Vrijer</a> (Vrije Universiteit, The Netherlands)</li>
+			      </ul>
+			    </td>
+			  </tr>
+			</table>
+		      </td>
+		    </tr>
+		    <tr id="Seminar">
+		      <td>
+			<p>Seminars take place on <strong>Thursdays at 2pm</strong> (Buenos Aires local time). Here is a <a href="https://www.google.com/calendar/embed?src=M2wybmV0cjJwcXRtbzZxOWRkdnRyYmp1N29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;ctz=America%2FArgentina%2FBuenos_Aires"><strong>Google calendar</strong></a> with the links to the talks, and here is the <a href="https://researchseminars.org/seminar/LoReL">seminar page</a> at Researchseminars.org.</p>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+			<h3 id="NoS"><br>Upcoming seminar talks</h3>
+			<ul style="margin-bottom:0px" id="HomeS">
+			  <li>No seminar planed at the moment</li>
+			</ul>
+		      </td>
+		    </tr>
+		    <tr id="SNoHome">
+		      <td>
+			&nbsp;<br>
+			<h3>Past talks</h3>
+			<ul>
+			  <li>
+			    <strong>July 8, 2021</strong> <a href="https://mivnisky.github.io/">Malena Ivnisky</a> (Universidad de Buenos Aires, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('MaleIvnisky').style.display = 'block';document.getElementById('ocultar-MaleIvnisky').style.display = 'inline';">
+			      A finite-dimensional model for affine, linear quantum lambda calculi with general recursion</a>.  
+			    <a id="ocultar-MaleIvnisky" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('MaleIvnisky').style.display = 'none';document.getElementById('ocultar-MaleIvnisky').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='MaleIvnisky'><br>
+			      (joint work with Alejandro D&iacute;az-Caro, Hern&aacute;n Melgratti, and Beno&icirc;t Valiron)<br><br>We introduce a concrete domain model for the quantum lambda calculus and lambda-rho extended with a fixpoint operator. A distinctive feature of lambda-rho is that it relies on density matrices for describing both quantum information and probabilistic distributions over computation states. It has been shown that there is a conservative translation from lambda-rho to the quantum lambda calculus of Selinger and Valiron. In contrast to existing models for quantum lambda calculi featuring recursion with intuitionistic arrows, our model is finite-dimensional and does not need more than cones of positive matrices and affine arrows.<br><br>
+			      Draft available <a href="https://mivnisky.github.io/qfixpoint.pdf">here</a>.
+			      <br><br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>June 24, 2021</strong> <a href="https://ww2.inf.ufg.br/~daniel/">Daniel Ventura</a> (Universidade Federal de Goi&aacute;s, Brazil):
+			    <a href="javascript:void(0);" onclick="document.getElementById('DanielVen').style.display = 'block';document.getElementById('ocultar-DanielVen').style.display = 'inline';">
+			      Skeletons Out! The Spirit of Node Replication</a>.  
+			    <a id="ocultar-DanielVen" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('DanielVen').style.display = 'none';document.getElementById('ocultar-DanielVen').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='DanielVen'><br>
+			      (joint work with Delia Kesner and Loïc Peyrot)<br><br>
+			      In this talk we introduce a term calculus implementing higher-order node replication, where substitution of terms are executed constructor by constructor. Besides implementing the full node replication, two evaluation strategies are considered --call-by-name and fully lazy call-by-need-- based on the key notion of skeleton, with skeleton extraction internally codified in the calculus. Observational equivalence between strategies is proved through a standard non-idempotent intersection type system.<br><br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>July 1st, 2021</strong> <a href="https://leafarromero.github.io/">Rafael Romero</a> (Universidad de Buenos Aires, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('RafaRomero').style.display = 'block';document.getElementById('ocultar-RafaRomero').style.display = 'inline';">
+			      A note on confluence in typed probabilistic lambda calculi</a>.  
+			    <a id="ocultar-RafaRomero" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('RafaRomero').style.display = 'none';document.getElementById('ocultar-RafaRomero').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='RafaRomero'><br>
+			      (joint work with Alejandro D&iacute;az-Caro)<br><br>
+			      On the topic of probabilistic rewriting, there are several works studying both termination and confluence of different systems. While working with a lambda calculus modelling quantum computation, we found a system with probabilistic rewriting rules and strongly normalizing terms. We examine the effect of small modifications in probabilistic rewriting, affine variables, and strategies on the overall confluence in this strongly normalizing probabilistic calculus. <br><br>
+			      Accepted at LSFA 2021. Available at <a href="http://arxiv.org/abs/2106.06633">arXiv:2106.06633</a>.
+			      <br><br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>May 27, 2021</strong> <a href="https://firuzz.github.io/">Andr&eacute;s Viso</a> (Software Heritage, France and UNQ, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('AndresVis').style.display = 'block';document.getElementById('ocultar-AndresVis').style.display = 'inline';">
+			      Encoding Tight Typing in a Unified Framework</a>.  
+			    <a id="ocultar-AndresVis" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('AndresVis').style.display = 'none';document.getElementById('ocultar-AndresVis').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='AndresVis'><br>
+			      This joint work with Delia Kesner explores how the intersection type theories of call-by-name (CBN) and call-by-value (CBV) can be unified in a more general framework provided by call-by-push-value (CBPV). Indeed, we propose tight type systems for CBN and CBV that can be both encoded in a tight type system for CBPV. All such systems are quantitative, in the sense that they provide exact information about the length of normalization sequences to normal form as well as the size of these normal forms. Moreover, the length of sequences to normal forms are discriminated according to their multiplicative/exponential nature, a concept inherited from linear logic.<br><br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>May 20, 2021</strong> <a href="https://pleiad.cl/people/etanter">&Eacute;ric Tanter</a> (Universidad de Chile, Chile):
+			    <a href="javascript:void(0);" onclick="document.getElementById('EricTan').style.display = 'block';document.getElementById('ocultar-EricTan').style.display = 'inline';">
+			      Gradualizing the Calculus of Inductive Constructions</a>.  
+			    <a id="ocultar-EricTan" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('EricTan').style.display = 'none';document.getElementById('ocultar-EricTan').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='EricTan'>
+			      (Joint work with M. Bertrand, K. Maillard, N. Tabareau)<br>
+
+			      Acknowledging the ordeal of a fully formal development in a proof assistant such as Coq, we investigate gradual variations on the Calculus of Inductive Construction (CIC) for swifter prototyping with imprecise types and terms. We observe, with a no-go theorem, a crucial tradeoff between graduality and the key properties of canonicity, decidability and closure of universes under dependent product that CIC enjoys. Beyond this Fire Triangle of Graduality, we explore the gradualization of CIC with three different compromises, each relaxing one edge of the Fire Triangle. We develop a parametrized presentation of Gradual CIC that encompasses all three variations, and jointly develop their metatheory. We first present a bidirectional elaboration of Gradual CIC to a dependently-typed cast calculus, which elucidates the interrelation between typing, conversion, and graduality. We then establish the metatheory of this cast calculus through both a syntactic model into CIC, which provides weak canonicity, confluence, and when applicable, normalization, and a monotone model that purports the study of the graduality of two of the three variants. This work informs and paves the way towards the development of malleable proof assistants and dependently-typed programming languages.<br>
+
+			      [The talk will be on the “intro material” of the paper, namely the analysis that leads to the Fire Triangle, and not on the gory technical details of the metatheory of Gradual CIC]
+			      <br><br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>May 6, 2021</strong> Octavio Malherbe (Universidad de la Rep&uacute;blica, Uruguay):
+			    <a href="javascript:void(0);" onclick="document.getElementById('OctavioMal').style.display = 'block';document.getElementById('ocultar-OctavioMal').style.display = 'inline';">
+			      Categorías indexadas, tripos y realizabilidad</a>.  
+			    <a id="ocultar-OctavioMal" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('OctavioMal').style.display = 'none';document.getElementById('ocultar-OctavioMal').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='OctavioMal'>
+			      En esta charla comenzaremos  con una introducción a las categorías indexadas para luego adentrarnos con un ejemplo de estas mediante la noción de tripos. Esta herramienta nos permite modelar la lógica de alto orden y nos va  permitir  trabajar con ciertas abstracciones de la realizabilidad clásica de Krivine  denominadas Abstract Krivine Structure (AKS) y ciertas álgebras combinatorias (denominadas full adjunction ordered combinatory algebras).  Veremos cómo de una AKS se determina una de estas álgebras y en el otro sentido estas determinan un AKS para que sus tripos sean equivalentes. <br> <br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>April 29, 2021</strong> <a href="https://www.fing.edu.uy/~pardo/">Alberto Pardo</a> (Universidad de la Rep&uacute;blica, Uruguay):
+			    <a href="javascript:void(0);" onclick="document.getElementById('AlbertoPar').style.display = 'block';document.getElementById('ocultar-AlbertoPar').style.display = 'inline';">
+			      Formalizaci&oacute;n de una transformaci&oacute;n entre programas seguros usando un abordaje internalista</a>.  
+			    <a id="ocultar-AlbertoPar" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('AlbertoPar').style.display = 'none';document.getElementById('ocultar-AlbertoPar').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='AlbertoPar'>
+			      Los lenguajes funcionales fuertemente tipados, como Haskell, OCaml, Agda o Idris, entre otros, se destacan por sus sistemas de tipos. Gracias a sus poderosos mecanismos de tipado (llamense tipos dependientes, GADTs, funciones a nivel de tipos, m&uacute;ltiples kinds, type classes, etc) uno puede ir m&aacute;s all&aacute; del uso habitual que tienen los tipos en un lenguaje de programaci&oacute;n y pasar a usarlos para para representar propiedades de los datos que manipula un programa (los llamados invariantes de tipos). M&aacute;s all&aacute; del impacto (y dificultad) que esto pueda implicar en la tarea de programaci&oacute;n, un benificio importante es que los invariantes pasan a formar parte del c&oacute;digo ordinario del programa y por lo tanto pueden ser verificados en tiempo de compilaci&oacute;n por el chequeador de tipos del lenguaje. Es decir, s&oacute;lo son aceptados aquellos programas que preservan los invariantes que tienen definidos en sus tipos. Esta metodolog&iacute;a de programaci&oacute;n juega un rol clave, por ejemplo, en el desarrollo de software confiable.
+
+			      Al momento de codificar los invariantes a nivel de los tipos existen distintas alternativas. Una es la est&aacute;ndar, en la que uno asocia los invariantes a trav&eacute;s de predicados por fuera de la definici&oacute;n de los tipos. A este abordaje se le llama "externalista".  Otra opci&oacute;n es usando un abordaje "internalista", en el que uno codifica el invariante como parte de la propia definici&oacute;n del tipo. De esta forma, se chequea la propiedad en la propia construcci&oacute;n de los t&eacute;rminos del tipo y por lo tanto s&oacute;lo es posible construir aquellos t&eacute;rminos que satisfacen el invariante.
+
+			      En esta charla analizaremos un ejemplo en particular donde aplicamos esta metodolog&iacute;a de programaci&oacute;n con invariantes. En concreto, vamos a mostrar la formalizaci&oacute;n en Agda de una transformaci&oacute;n entre programas seguros (de un lenguaje imperativo simple) que preserva la propiedad de no interferencia. Dicha transformaci&oacute;n toma programas seguros seg&uacute;n un sistema flow-sensitive (en el que el nivel de seguridad de las variables puede mudar) y los transforma en programas seguros tipables seg&uacute;n un sistema flow-insensitive (en el que el nivel de seguridad de las variables es fijo). Lo interesante de nuestra formalizaci&oacute;n es que est&aacute; desarrollada usando el abordaje internalista.
+			      <br>
+			      <br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>April 22, 2021</strong> <a href="http://sites.google.com/site/beniaminoaccattoli">Beniamino Accattoli</a> (Inria, France):
+			    <a href="javascript:void(0);" onclick="document.getElementById('BeniaminoAc').style.display = 'block';document.getElementById('ocultar-BeniaminoAc').style.display = 'inline';">
+			      The Machinery of Interaction</a>.  
+			    <a id="ocultar-BeniaminoAc" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('BeniaminoAc').style.display = 'none';document.getElementById('ocultar-BeniaminoAc').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='BeniaminoAc'>
+			      Girard's geometry of interaction suggests an unusual way of evaluating lambda terms, the interaction abstract machine (IAM), first studied by Mackie and Danos &amp; Regnier in the nineties, using linear logic proof nets. In particular, the IAM does not use environments, in contrast to the mainstream approach to abstract machines. In this talk I shall give a slow paced introduction to the IAM, using an alternative presentation based on ordinary lambda terms. If time permits, I shall also discuss how to measure the time and space consumptions of the IAM via multi types. This talk is an overview of joint works with Ugo Dal Lago and Gabriele Vanoni.
+			    </div>
+			  </li>
+			  <li>
+			    <strong>December 17, 2020</strong> <a href="http://cl-informatik.uibk.ac.at/members/vincent/">Vincent van Oostrom</a> (University of Innsbruck, Austria):
+			    <a href="javascript:void(0);" onclick="document.getElementById('VincentvanOostrom').style.display = 'block';document.getElementById('ocultar-VincentvanOostrom').style.display = 'inline';">
+			      Commutative Residual Algebras (CRAs)</a>.  
+			    <a id="ocultar-VincentvanOostrom" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('VincentvanOostrom').style.display = 'none';document.getElementById('ocultar-VincentvanOostrom').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='VincentvanOostrom'>
+			      <p> 
+			      We present results for commutative residual algebras (A,1,/) satisfying a/1 = a, (a/b)/(c/b) = (a/c)/(b/c), (a/b)/a = 1 and a/(a/b) = b/(b/a).  Every CRA has a natural order a &le; b if a/b = 1 and a partial composition operation . satisying (a.b)/a = b and a &le; a.b. Then:
+			      </p>
+			      <ul>
+				<li>if &le; is well-founded, &le; is a decomposition order entailing that each a has a unique decomposition a1.....an with ai indecomposable (cf. the Fundamental Theorem of Arithmetic);</li>
+				<li>if &le; is well-founded, the CRA is isomorphic to the multiset CRA over indecomposables (a representation theorem);</li>
+				<li>a version of the inclusion/exclusion principle can be stated and proven for CRAs, entailing all versions of that principle we know of, e.g. for cardinalities, measures, multisets and both the additive and the multiplicative natural numbers;</li>
+				<li>assuming . is a total operation, every CRA can be embedded in a lattice ordered group by considering fractions. for instance, the multiset CRA is embedded into the signed multisets of (Blanchette, Fleury and Traytel). stated for fractions, the inclusion/exclusion principle regains its usual form;</li>
+				<li>CRAs are equivalent to commutivative BCK algebras with relative cancellation (Dvurecenskij and Graziano);</li>
+				<li>CRAs are instances of residual algebras used to characterise orthogonality in lambda calculus and term rewriting (Terese), as expressed by the second identity of CRAs (Levy's cube law).</li>
+			      </ul>
+			      <br>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>December 3, 2020</strong> <a href="https://lipn.univ-paris13.fr/~gmanzonetto/">Giulio Manzonetto</a> (Universit&eacute; Paris 13, France):
+			    <a href="javascript:void(0);" onclick="document.getElementById('GiulioManzonetto').style.display = 'block';document.getElementById('ocultar-GiulioManzonetto').style.display = 'inline';">
+			      About the power of Taylor expansion</a>.  
+			    <a id="ocultar-GiulioManzonetto" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('GiulioManzonetto').style.display = 'none';document.getElementById('ocultar-GiulioManzonetto').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='GiulioManzonetto'>
+			      <p>The speculative ambition of replacing the old theory of program approximation based on syntactic continuity with the theory of resource consumption based on Taylor expansion and originating from the differential lambda-calculus is nowadays at hand. Using this resource sensitive theory, we provide simple proofs of important results in lambda-calculus that are usually demonstrated by exploiting Scott's continuity, Berry's stability or Kahn and Plotkin's sequentiality theory.</p>
+			      <p>A paradigmatic example is given by the Perpendicular Lines Lemma for the B&otilde;hm tree semantics, which is proved here simply by induction, but relying on the main properties of resource approximants: strong normalization, confluence and linearity.</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>November 26, 2020</strong> <a href="https://pablofcastro.github.io/Main.html">Pablo Castro</a> (Universidad Nacional de R&iacute;o Cuarto, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('PabloCastro').style.display = 'block';document.getElementById('ocultar-PabloCastro').style.display = 'inline';">
+			      C&aacute;lculo de Satisfacibilidad en L&oacute;gicas Generales</a>.  
+			    <a id="ocultar-PabloCastro" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('PabloCastro').style.display = 'none';document.getElementById('ocultar-PabloCastro').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='PabloCastro'>
+			      <p>Desde su introducci&oacute;n por Goguen and Burstall la teor&iacute;a de Instituciones ha sido usada como una formulaci&oacute;n abstracta de la teor&iacute;a de modelos. Esta teor&iacute;a ha sido extendida por varios autores, incluyendo Jos&eacute; Meseguer quien introdujo las L&oacute;gicas Generales en 1989, en su art&iacute;culo Meseguer complement&oacute; las teor&iacute;as de Instituciones con c&aacute;lculos de pruebas. En esta charla presentar&eacute; un trabajo en conjunto con Carlos Lopez Pombo, Nazareno Aguirre y Tom Maibaum en el cual describimos una contraparte sem&aacute;ntica de las L&oacute;gicas Generales de Meseguer. El trabajo radica en la definici&oacute;n abstracta de c&aacute;lculos de pruebas que est&aacute;n basados en la construcci&oacute;n de modelos.</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>November 19, 2020</strong> <a href="http://www.cmat.edu.uy/~mauricio/">Mauricio Guillermo</a> (Universidad de la Rep&uacute;blica, Uruguay):
+			    <a href="javascript:void(0);" onclick="document.getElementById('MauricioGuillermo').style.display = 'block';document.getElementById('ocultar-MauricioGuillermo').style.display = 'inline';">
+			      Juegos en Realizabilidad Cl&aacute;sica</a>.
+			    <a id="ocultar-MauricioGuillermo" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('MauricioGuillermo').style.display = 'none';document.getElementById('ocultar-MauricioGuillermo').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='MauricioGuillermo'>
+			      <p>En 1990 T. Griffin descubre que la instrucci&oacute;n de control call/cc tiene el tipo ((A &#8658; B) &#8658; A) &#8658; A, f&oacute;rmula que expresa la ley de Peirce. Este descubrimiento da una interpretaci&oacute;n computacional directa para los razonamientos de l&oacute;gica cl&aacute;sica. Varios c&aacute;lculos cl&aacute;sicos fueron desarrollados a partir de este descubrimiento, en general en la tradici&oacute;n sint&aacute;ctica basada en la reescritura y la correspondencia de Curry-Howard. En la tradici&oacute;n sem&aacute;ntica Krivine presenta una reformulaci&oacute;n de la realizabilidad para dar cuenta de los razonamientos cl&aacute;sicos.</p>
+			      <p>Una diferencia grande entre la realizabilidad intuicionista y la cl&aacute;sica es que, mientras la sem&aacute;ntica de las f&oacute;rmulas en realizabilidad intuicionista es en s&iacute; misma una descripci&oacute;n del comportamiento de los realizadores, en realizabilidad cl&aacute;sica este comportamiento no es expl&iacute;cito.</p>
+			      <p>En esta charla veremos algunas t&eacute;cnicas que permiten caracterizar los realizadores cl&aacute;sicos de una f&oacute;rmula en t&eacute;rminos de la sem&aacute;ntica de juegos, mostrando algunos resultados.</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>November 5, 2020</strong> <a href="https://sites.google.com/a/ciencias.unam.mx/luglzhuesca/">Lourdes del Carmen Gonz&aacute;lez Huesca</a> (Universidad Nacional Aut&oacute;noma de M&eacute;xico, M&eacute;xico):
+			    <a href="javascript:void(0);" onclick="document.getElementById('LourdesGonzalez').style.display = 'block';document.getElementById('ocultar-LourdesGonzalez').style.display = 'inline';">Interactive program synthesis for modal logic S4</a>.
+			    <a id="ocultar-LourdesGonzalez" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('LourdesGonzalez').style.display = 'none';document.getElementById('ocultar-LourdesGonzalez').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='LourdesGonzalez'>
+			      <p>In this talk, I will present the ongoing work to tackle the inhabitation/synthesis problem for the case of modal types in the necessity fragment of the constructive logic S4.</p>
+			      <p>Our approach is human-driven in the sense of the usual reasoning procedures of modern theorem provers by using a so-called dual-context sequent calculus, where the sequents have two contexts, originally proposed to capture the notions of global and local truths without resorting to any formal semantics.</p>
+			      <p>Joint work with Sammantha Oma&ntilde;a and Favio Miranda.</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>October 1st, 2020</strong> <a href="https://members.loria.fr/SPerdrix/">Simon Perdrix</a> (CNRS / LORIA, France):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Perdrix').style.display = 'block';document.getElementById('ocultar-Perdrix').style.display = 'inline';">
+			      PBS-Calculus: A Graphical Language for Coherent Control of Quantum Computations</a>.  
+			    <a id="ocultar-Perdrix" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Perdrix').style.display = 'none';document.getElementById('ocultar-Perdrix').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Perdrix'>
+			      <p>
+			      We will present the PBS-calculus, a diagrammatic language for representing and reasoning on quantum computations involving coherent control of quantum operations. Coherent control, and in particular indefinite causal order, is known to enable multiple computational and communication advantages over classically ordered models like quantum circuits. The PBS-calculus is inspired by quantum optics, in particular the polarising beam splitter (PBS for short). We formalise the syntax and the semantics of the PBS-diagrams, and we equip the language with an equational theory, which is proved to be sound and complete: two diagrams are representing the same quantum evolution if and only if one can be transformed into the other using the rules of the PBS-calculus. Moreover, we show that the equational theory is minimal.</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>September 24, 2020</strong> <a href="https://www.irif.fr/~kesner/">Delia Kesner</a> (Universit&eacute; de Paris, CNRS, IRIF et Institut Universitaire de France):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Kesner').style.display = 'block';document.getElementById('ocultar-Kesner').style.display = 'inline';">
+			      Reasoning about languages with control operators</a>.
+			    <a id="ocultar-Kesner" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Kesner').style.display = 'none';document.getElementById('ocultar-Kesner').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Kesner'>
+			      <p>One of the most surprising examples of the proofs-as-programs paradigm is the correspondence between the Peirce Law in classical logic and the call-cc control operator in functional programming, first noticed by Griffin in 1990, and then extended by Parigot in 1992, which has introduced the lambda-mu calculus as an isomorphic term language of classical natural deduction logic.</p>
+			      <p> This talk provides some tools to reason about dynamic properties of the lambda-mu calculus.</p>
+			      <p> In the first part of the talk, we discuss how to identify programs with control operators having exactly the same reduction semantics. This is achieved by introducing a relation which is a strong bisimulation defined over a revised presentation of Parigot's lambda-mu calculus. We show that our relation is conservative with respect to Laurent's original sigma-equivalence for lambda-mu terms (which is not a strong bisimulation), still being able to characterize structural equivalence in Polarized Proof-Nets.</p>
+			      <p> In the second part of the talk, we show how to exactly measure time and space in the lambda-mu calculus. Our approach is based on typing systems equipped with non-idempotent intersection and union types, which are able to provide information about the number of evaluation steps to normal form and the size of the corresponding normal forms. These quantitative informations are measured separately, simply because the size of the result can be exponentially bigger than the number of steps. We develop our study for three well-known evaluation strategies: head, leftmost and maximal evaluation, pertaining to head, weak and strong normalization, respectively. </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>September 17, 2020</strong> <a href="https://sites.google.com/view/rfervari/home">Ra&uacute;l Fervari</a> (Universidad Nacional de C&oacute;rdoba, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Fervari').style.display = 'block';document.getElementById('ocultar-Fervari').style.display = 'inline';">
+			      Separation logics: a modal perspective</a>.
+			    <a id="ocultar-Fervari" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Fervari').style.display = 'none';document.getElementById('ocultar-Fervari').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Fervari'>
+			      <p>
+			      Modal separation logics (MSL) are formalisms that have been recently proposed combining modal operators with separating connectives, both interpreted over one-dimensional Kripke models. In this way, MSL can be seen either as separation logics enriched with local operations to reason about memory states of a piece of software, or either as modal logics with global relation-changing operators (&agrave; la sabotage logic).
+			      </p>
+			      <p>In this talk we will present MSL and some of its most interesting fragments, and discuss some results about complexity, axiom systems and expressivity. We will conclude by discussing some ongoing and future lines of research.</p>
+			      <p>Some references:</p>
+			      <ol>
+				<li>S. Demri and R. Fervari. On the Complexity of Modal Separation Logics. In Proceedings of Advances in Modal Logics AiML’18, pages 179-198. College Publications, 2018.</li>
+				<li>S. Demri, R. Fervari and A. Mansutti. Axiomatising Logics with Separating Conjunction and Modalities. In Proc. of the 16th European Conference on Logics in Artificial Intelligence (JELIA 2019).</li>
+				<li>S. Demri and R. Fervari. The Power of Modal Separation Logics.Journal of Logic and Computation (JLC), volume 29, pages 1139–1184, 2019.</li>
+				<li>B. Bednarczyk, S. Demri, R. Fervari, and A. Mansutti. Modal Logics with Composition on Finite Forests: Expressivity and Complexity.  In Proc. of the 35th Annual ACM/IEEE Symposium on Logic In Computer Science (LICS'20), 2020. IEEE Press, pages 167–180, 2020.</li>
+			      </ol>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>September 10, 2020</strong> <a href="http://www.lsv.fr/~dowek/">Gilles Dowek</a> (Inria &amp; ENS Paris-Saclay, France):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Dowek').style.display = 'block';document.getElementById('ocultar-Dowek').style.display = 'inline';">
+			      Logipedia: towards a Wikipedia of formal proofs</a>.
+			    <a id="ocultar-Dowek" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Dowek').style.display = 'none';document.getElementById('ocultar-Dowek').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Dowek'>
+			      <p>
+			      Formal computerized proofs are now a central tool in computer science and in mathematics. But, each system – Coq, HOL Light, Isabelle/HOL,PVS... – implements its own language and its own theory, limiting the interoperability between systems and the sustainability of these proofs. Logipedia is an, in progress, encyclopedia of formal proofs, expressed in various theories. It is based on the idea to express these theories in a new logical framework allowing bound variables, explicit proof-terms, computation rules, and peaceful co-existence of constructive and non constructive proofs.
+			      </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>September 3, 2020</strong> <a href="https://lafhis.dc.uba.ar/~melgratti">Hern&aacute;n Melgratti</a> (Universidad de Buenos Aires / CONICET, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Melgra').style.display = 'block';document.getElementById('ocultar-Melgra').style.display = 'inline';">
+			      Probabilistic Analysis of Binary Sessions</a>.
+			    <a id="ocultar-Melgra" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Melgra').style.display = 'none';document.getElementById('ocultar-Melgra').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Melgra'>
+			      <p>
+			      We study a probabilistic variant of binary session types that relate to a class of Finite-State Markov Chains. The probability annotations in session types enable the reasoning on the probability that a session terminates successfully, for some user-definable notion of successful termination. We develop a type system for a simple session calculus featuring probabilistic choices and show that the success probability of well-typed processes agrees with that of the sessions they use. To this aim, the type system needs to track the propagation of probabilistic choices across different sessions.<br>
+			      Joint work with: Omar Inverso, Hern&aacute;n Melgratti, Luca Padovani, Catia Trubiani, Emilio Tuosto
+			      </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>August 20, 2020</strong> <a href="http://profs.sci.univr.it/~zorzim">Margherita Zorzi</a> (Universit&agrave; di Verona, Italy):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Zorzi').style.display = 'block';document.getElementById('ocultar-Zorzi').style.display = 'inline';">
+			      A Host-Core type theory as internal language</a>.
+			    <a id="ocultar-Zorzi" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Zorzi').style.display = 'none';document.getElementById('ocultar-Zorzi').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Zorzi'>
+			      <p>
+			      JOINT WORK WITH Davide Trotta Nad Roberto Giacobazzi (University of Verona).<br>
+			      Programming platforms and modern IDE systems provide efficient methods to manage
+			      and control the process of software development in an heterogeneous programming
+			      language. In this context the programmer uses a main language, the host, and
+			      delegates some tasks to another one, typically domain specific, called it the
+			      core, hierarchically embedded into the former. In this paper we provide a formal
+			      characterization of host-core languages in terms of the internal language of a
+			      category. We propose HC0, a type theory able to capture the common properties of
+			      an ideal class of (functional) host-core languages. The type theory must to be
+			      “mixed”, because it has to describe both host and core syntaxes and the
+			      communication between the two parts. It is also compositional, i.e. it can be
+			      easily extended without changing its structure. We provide a denotational
+			      semantics in terms of enriched categories, and we prove a strong relationship
+			      between syntax and semantics via the internal language a notion, at the best of
+			      our knowledge, completely new in programming theory. By proving that HC0 is the
+			      internal language of the category of its models we can equivalently reason both
+			      from a syntactical and a semantical point of view. The internal language allows
+			      us to provide a formal definition of host-core language and to characterize the
+			      semantics of the class languages that follows in our definition. Moreover, we
+			      also obtain some interesting byproducts. We are able to provide a first
+			      comparison between the host-core model and the standalone one (i.e. the
+			      programming paradigm based on a single language). Finally, we define a function
+			      that, given a model (in the sense we defined for HC0) extracts a host-core type
+			      theory.
+			      </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>August 13, 2020</strong> <a href="http://www.mat.unb.br/~ayala">Mauricio Ayala Rinc&oacute;n</a> (Universidade de Bras&iacute;lia, Brazil):
+			    <a href="javascript:void(0);" onclick="document.getElementById('AyalaRincon').style.display = 'block';document.getElementById('ocultar-AyalaRincon').style.display = 'inline';">
+			      Termination of Functional Programs and Term Rewriting Systems</a>.
+			    <a id="ocultar-AyalaRincon" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('AyalaRincon').style.display = 'none';document.getElementById('ocultar-AyalaRincon').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='AyalaRincon'>
+			      <p>
+			      This talk will present current research on the formalization
+			      of termination for a functional language model called PVS0.
+			      This model contributes to the meta-theoretical study of the
+			      PVS higher-order logic and their computational aspects.
+			      Automation of the verification of termination increases the
+			      semantic capabilities of deductive systems and compilers and
+			      involves research challenges that range from proving
+			      fundamental theorems about the pertinence of the
+			      computational model to the integration of mechanical proofs
+			      of the correspondence of different termination criteria for
+			      computational frameworks such as PVS0 and term rewriting
+			      systems.
+			      </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>August 6, 2020</strong> <a href="http://www.ic.uff.br/~bruno/">Bruno Lopes</a> (Universidade Federal Fluminense, Brazil):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Lopes').style.display = 'block';document.getElementById('ocultar-Lopes').style.display = 'inline';">
+			      A logical framework to reason about Reo circuits</a>.
+			    <a id="ocultar-Lopes" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Lopes').style.display = 'none';document.getElementById('ocultar-Lopes').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Lopes'>
+			      <p>
+			      Reo is a graphical-based coordination modelling language which aims to capture and model the interaction between pieces of software, using structures known as channels.<br>
+			      The fact that Reo can be used to model many real-world situations has attracted attention from researchers, resulting in a great effort directed in formalising means to verify properties of Reo circuits. This work presents a logical framework to model and reason about Reo circuits in a proof-theoretical way (using Coq proof-assistant), and by means of model checking (using nuXmv model checker).
+			      </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>July 23, 2020</strong> <a href="https://mallku2.github.io/">Mallku Sodevilla</a> (Universidad Nacional de C&oacute;rdoba, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('mallku').style.display = 'block';document.getElementById('ocultar-mallku').style.display = 'inline';">
+			      Sem&aacute;ntica operacional y su aplicaci&oacute;n para el estudio de recolecci&oacute;n de basura, en Lua 5.2</a>.
+			    <a id="ocultar-mallku" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('mallku').style.display = 'none';document.getElementById('ocultar-mallku').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='mallku'>
+			      <p>Lua es un lenguaje de programaci&oacute;n imperativo de scripting, que ofrece tipado din&aacute;mico, manejo autom&aacute;tico de memoria, facilidades para la descripci&oacute;n de datos, y mecanismos de meta-programaci&oacute;n para adaptar el lenguaje a dominios espec&iacute;ficos. Es utilizado en proyectos de diversa naturaleza, desde desarrollo de juegos, de manera notable en juegos "AAA", desarrollo de plugins, firewall de aplicaciones web, y en sistemas embebidos. Gracias al &eacute;xito de Lua es posible encontrar diversas implementaciones alternativas y analizadores est&aacute;ticos. Sin embargo, la naturaleza informal de la especificaci&oacute;n del lenguaje implica que quienes desarrollan esas herramientas no pueden proveer garant&iacute;as formales de correcci&oacute;n para las mismas.</p>
+			      <p>En este trabajo presentamos una formalizaci&oacute;n de la sem&aacute;ntica operacional de Lua 5.2, incluyendo recolecci&oacute;n de basura (GC) y sus interfaces (finalizadores y tablas d&eacute;biles; una forma de implementar referencias d&eacute;biles). Validamos la sem&aacute;ntica mediante su mecanizaci&oacute;n, utilizando PLT Redex, y el testeo de la misma con respecto a la suite de tests del int&eacute;rprete oficial de Lua. A su vez, utilizamos las facilidades ofrecidas por PLT Redex para la mecanizaci&oacute;n de sistemas formales y testeo aleatorio de propiedades, para obtener evidencia de la propiedad de progreso de la sem&aacute;ntica. Para GC proveemos un framework para razonar formalmente sobre propiedades de cualquier algoritmo de GC basado en un criterio sint&aacute;ctico. Dentro del framework podemos formalizar y esbozar la demostraci&oacute;n de propiedades sobre GC, incluyendo su correcci&oacute;n (sin considerar sus interfaces).</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>July 16, 2020</strong> <a href="https://cs.famaf.unc.edu.ar/~mpagano/">Miguel Pagano</a> (Universidad Nacional de C&oacute;rdoba, Argentina):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Pagano').style.display = 'block';document.getElementById('ocultar-Pagano').style.display = 'inline';">
+			      Realizabilidad para Adecuaci&oacute;n de la m&aacute;quina de Sestoft</a>.
+			    <a id="ocultar-Pagano" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Pagano').style.display = 'none';document.getElementById('ocultar-Pagano').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Pagano'>
+			      <p>
+			      Desde hace unos 10 a&ntilde;os que se usa biortogonalidad (una forma de definir relaciones l&oacute;gicas) para probar la correcci&oacute;n de compiladores para lenguajes funcionales. En esta charla contar&eacute; el trabajo que venimos realizando en C&oacute;rdoba hacia una adaptaci&oacute;n de esa t&eacute;cnica para un lenguaje lazy. Es un trabajo conjunto que empez&oacute; Leo Rodr&iacute;guez con Daniel Fridlender, luego nos sumamos con Ale Gadea.</p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>July 2, 2020</strong> <a href="https://www.monoidal.net">Beno&icirc;t Valiron</a> (LRI / CentraleSup&eacute;lec, France):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Valiron').style.display = 'block';document.getElementById('ocultar-Valiron').style.display = 'inline';">
+			      Towards a Curry-Howard Isomorphism for quantum control</a>.
+			    <a id="ocultar-Valiron" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Valiron').style.display = 'none';document.getElementById('ocultar-Valiron').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Valiron'>
+			      <p>
+			      In this talk, I will present a linear and reversible language with inductive and coinductive types, together with a Curry-Howard correspondence with the logic muMALL : linear logic extended with least and greatest fixed points which allow inductive and coinductive statements. We shall discuss the language, the correspondance with logic, and the possible extensions to quantum control of the approach.
+			      </p>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>June 25, 2020</strong> <a href="https://www.mat.unb.br/~dnantes/Welcome.html">Daniele Nantes</a> (Universidade de Bras&iacute;lia, Brazil):
+			    <a href="javascript:void(0);" onclick="document.getElementById('Nantes').style.display = 'block';document.getElementById('ocultar-Nantes').style.display = 'inline';">
+			      An Investigation of Linear Substitution Lambda-Calculus as Session-Typed Processes</a>.
+			    <a id="ocultar-Nantes" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Nantes').style.display = 'none';document.getElementById('ocultar-Nantes').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Nantes'>
+			      <p>
+			      <em>Sandra Alves, Daniele Nantes,  J. A. P&eacute;rez and Daniel Ventur</em><br>
+			      <br>
+			      <strong>Abstract.</strong> This   work in progress investigates a type directed encoding of the simply-typed linear substitution lambda-calculus  to session-typed pi-processes, taking into account an  operational semantics  defined by a linear weak head reduction strategy.  The encoding adapts the one by Toninho et. al., which encodes the simply-typed lambda-calculus into a session-typed pi-calculus through linear logic, while extending it to explicit substitutions, considering a generalisation of the pi-calculus operational semantics with reduction rules at a distance, as proposed by Accattoli. These changes, while weakening the simulation of lambda-calculus in the pi-calculus, when compared with the 1-to-1 simulation obtained by Accattoli, allow for an as tight as possible encoding of well-typed functions as session-typed processes.
+			      </p>
+			    </div>
+			  </li>
+			  <li><strong>June 18, 2020</strong> <a href="https://ebonelli.github.io">Eduardo Bonelli</a> (Stevens Institute of Technology, United States): 
+			    <a href="javascript:void(0);" onclick="document.getElementById('Bonelli').style.display = 'block';document.getElementById('ocultar-Bonelli').style.display = 'inline';">
+			      Logic of Proofs y Lambda C&aacute;lculo: proofs terms y unificaci&oacute;n de alto-orden
+			    </a>.
+			    <a id="ocultar-Bonelli" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Bonelli').style.display = 'none';document.getElementById('ocultar-Bonelli').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Bonelli'>
+			      <p>
+			      Logic of Proofs (LP) [Art94] es la primera de una familia de l&oacute;gicas modales hoy conocidas como Justification Logics. LP incluye proposiciones de la forma [s]A donde "s" denota la raz&oacute;n or justificaci&oacute;n de la veracidad de A. Si uno se "olvida" la raz&oacute;n "s" en la proposici&oacute;n [s]A, queda el operador modal []A de la l&oacute;gica modal S4.</p>
+			      <p>
+			      En esta charla vamos a explorar dos lazos entre LP y lambda c&aacute;lculo:
+			      </p>
+			      <ol>
+				<li>El primero se podr&iacute;a resumir como:<br>
+				  &nbsp;&nbsp;&nbsp;&nbsp;[s]A es el tipo de los computaciones o proof terms con source s<br>
+				  Un proof term es una expresi&oacute;n que denota una computaci&oacute;n o derivaci&oacute;n desde un t&eacute;rmino source a un t&eacute;rmino target (Ej. cap&iacute;tulo 8 del TERESE para TRS).<br>&nbsp;
+				</li>
+				<li>El segundo de podr&iacute;a resumir como:<br>
+				  &nbsp;&nbsp;&nbsp;&nbsp;La decoraci&oacute;n de pruebas de S4 para obtener pruebas de LP se reduce a un problema de unificaci&oacute;n de alto-orden.
+				</li>
+			      </ol>
+			    </div>
+			  </li>
+			  <li>
+			    <strong>June 4, 2020</strong> <a href="https://foones.github.io/">Pablo Barenbaum</a> (Universidad de Buenos Aires, Argentina): 
+			    <a href="javascript:void(0);" onclick="document.getElementById('Barenbaum').style.display = 'block';document.getElementById('ocultar-Barenbaum').style.display = 'inline';">
+			      Un c&aacute;lculo-lambda relacional</a>.
+			    <a id="ocultar-Barenbaum" style="display:none;" href="javascript:void(0);" onclick="document.getElementById('Barenbaum').style.display = 'none';document.getElementById('ocultar-Barenbaum').style.display = 'none';">(hide)</a><br>
+			    <div style='display:none' id='Barenbaum'>
+			      <p>
+			      La programaci&oacute;n relacional se caracteriza por el hecho de que las expresiones representan relaciones que no tienen por qu&eacute; ser funcionales, y por el papel fundamental que desempe&ntilde;a la unificaci&oacute;n en el modelo de c&oacute;mputo. Uno de sus exponentes m&aacute;s puros es el lenguaje de programaci&oacute;n miniKanren. En esta charla presentaremos una variante del c&aacute;lculo-lambda extendido con construcciones propias de la programaci&oacute;n relacional: alternativa no deterministica, secuenciaci&oacute;n expl&iacute;cita y unificaci&oacute;n. Discutiremos diversos aspectos de este c&aacute;lculo actualmente en desarollo: sem&aacute;ntica operacional, denotacional e implementaci&oacute;n de un lenguaje de programaci&oacute;n basado en estos principios.
+			      </p>
+			    </div>
+			  </li>
+			  <li><b> September 10, 2019.</b> Pierre Vial will give us an overview on his work with a talk entitled <em>An introduction to idempotent or not intersection types</em></li>
+			  <li><b> July 8, 2015.</b> Abuzer Yakaryilmaz will give us some insight on his research line with his talk entitled <i>Classical and Quantum Automata on Promise Problems</i></li>
+			  <li> <b> April 22, 2015. </b> Andr&eacute;s Viso gives us an overview on his joint work with Eduardo Bonelli and Mauricio Ayala-Rincon entitled <i>Static Typing for Path Polymorphism</i> </li>
+			  <li> <b> February 18, 2015. </b> Bernard Serpette will give us some insight on his recent work entitled <i> Computing with collaborative side effects</i> </li>
+			  <li> <b> November 26, 2014. </b> Nicol&aacute;s Passerini and Pablo Tesone will introduce us to this recent work on <i> An Extensible Constraint-based Type Inference Algorithm for Object-Oriented Dynamic Languages Supporting Blocks and Generic Types</i> </li>
+			  <li><b> November 12, 2014. </b> Jose Santos will tell us about his work on information flow analysis entitled <i> Enforcing Secure Information Flow in Client-side Web Applications</i>.  </li>
+			  <li> <b> October 29, 2014.  </b> Carlos Lombardi will give us some insight on his PhD thesis entitled <i> Reduction Space for Non-Sequential and Infinitary Rewriting Systems</i>. 
+			    <li> <b> October 1 &amp; 15, 2014.  </b> Alejandro D&iacute;az-Caro will tell us about his joint work with Gilles Dowek on <i>Type Theory Modulo Isomorphism</i> </li>
+			    <li> <b> September 3 &amp; 17, 2014.  </b> Andr&eacute;s Viso will introduce us to some of the details on proving <i> Strong Normalization for CPP</i>, a type system for a pattern calculus supporting Path Polymorphism. Joint work with Eduardo Bonelli and Mauricio Ayala-Rinc&oacute;n.  </li>
+			    <li> <b> August 20, 2014.  </b> Thibaut Balabonski will be opening this new semester's seminar at UNQ with his talk on <i> Semantic Proofs of Correctness For Low-level Concurrent Program Optimisations</i> </li>
+			    <li><b> June 13, 2014.</b> Eduardo Bonelli will present us some recent work by Beniamino Accattoli and Ugo Dal Lago entitled <i> Beta Reduction is Invariant, Indeed</i>.  </li>
+			    <li><b> May 29, 2014.</b> Pablo Barenbaum give us some insight on his recent joint work with Eduardo Bonelli on <i> Optimal Reduction in the Linear Substitution Calculus</i>.  </li>
+			    <li><b> May 13, 2014.</b> Antonio Bucciarelli joins us for a lecture on <i> Definability and Full Abstraction Problems for Lambda Calculi</i>.  </li>
+			    <li><b> March 27, 2014. </b> Andr&eacute;s Viso gives us an overview on his joint work with Eduardo Bonelli and Mauricio Ayala-Rincon entitled <i> Typing a Calculus of Patterns Supporting Path Polymorphism</i>.  </li>
+			    <li> <b> August 23, 2013. </b> Ioana Cristescu presents her joint work with Jean Krivine and Daniele Varacca entitled <a href="http://hal.archives-ouvertes.fr/docs/00/84/01/56/PDF/Rpi.pdf" rel="nofollow"> <i>A Compositional Semantics For The Reversible Pi-calculus</i></a>.</li>
+			    <li> <b> July 25, 2013. </b> Jean-Jacques L&eacute;vy revisits his recent talk <a href="http://pauillac.inria.fr/~levy//talks/13salibra/sn-f.pdf" rel="nofollow"><i>Understanding Strong Normalisation</i></a> on his visit to Buenos Aires.</li>
+			    <li> <b> June 27, 2013.</b> Beta Ziliani visits Buenos Aires and tells us about his recent work on extending Coq with <i>Mtac: a Monad for Typed Tactic Programming</i>.</li>
+			    <li><b>June 6, 2013. </b> Andr&eacute;s Viso gives us a brief introduction on <i>Typing Systems for different Pattern Calculi</i>. The talk is based on Barry Jay's book <a href="http://www.springer.com/computer/theoretical+computer+science/book/978-3-540-89184-0" target="_blank" rel="nofollow">Pattern Calculus: Computing with Functions and Structures</a>.</li>
+			    <li> <b> May 16, 2013.</b> Delia Kesner gives us an overview on her joint work with Antonio Bucciarelli and Simona Ronchi della Rocca entitled <i>Observability Through Product Types</i>.</li>
+			    <li> <b> May 9, 2013.</b>  Carlos Lombardi introduces us to the theory of <i>Proof Terms</i> as a continuation of his previous talk on equivalences between reductions for <i>Infinitary Rewriting Systems</i>. Further information is available on Term Rewriting Systems (TeReSe) chapter 8.</li>
+			    <li> <b>April 25, 2013. </b> Gabriela Steren gives us an overview on her work <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxsb3JlbGxhYnN8Z3g6MzcwYTM5MjQ3MWZlMWIwZQ" target="_blank"><i>Intuitionistic Hypothetical Logic of Proofs</i></a> presented on <a href="https://sites.google.com/site/imodallogic2013/" target="_blank" rel="nofollow">The 6th Workshop on Intuitionistic Modal Logic and Applications (IMLA 2013)</a> last April 7.</li>
+			    <li><b> April 11, 2013. </b> Carlos Lombardi introduces us to <i>Infinitary Rewriting Systems</i> and shows some interesting equivalences between reductions. Background information can be found on Term Rewriting Systems (TeReSe) chapter 12 and <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.109.4955" target="_blank" rel="nofollow">Infinitary Normalization</a> by Jan Willem Klop and Roel De Vrijer. </li>
+			</ul>
+		    </tr>
+		    <tr>
+		      <td>
+			<h3 id="NoEv"><br>Recent and upcoming events</h3>
+			<ul style="margin-bottom:0px" id="HomeE">
+			  <li><strong>November 5, 2021.</strong> Teodoro Freund defends his Licenciatura thesis at Universidad de Buenos Aires, supervised by Pablo Barenbaum.</li>
+			  <li><strong>November 2021.</strong> Alejandro D&iacute;az-Caro, Malena Ivnisky, and Rafael Romero will visit the LMF at Paris-Saclay to work with Gilles Dowek, Beno&icirc;t Valiron and Agust&iacute;n Borgna financed by ECOS-Sud and the IRP SINFIN.</li>
+			  <li><strong>October 29, 2021.</strong> Cristian Sottile gives a talk at <a href="https://50jaiio.sadio.org.ar/">50 JAIIO</a> at the <em>EST</em> symposium about his Master's thesis.</li>
+			  <li><strong>October 14, 2021.</strong> Alejandro D&iacute;az-Caro gives a talk at the <a href="http://rafa.fisica.org.ar/">106 Reuni&oacute;n Anual de F&iacute;sica (RAFA)</a> at the <em>Fundamentos e Informaci&oacute;n Cu&aacute;ntica</em> Division.</li>
+			  <li><strong>September 24, 2021.</strong> Hern&aacute;n Melgratti, CONICET researcher at ICC and Professor at UBA, joins LoReL team.</li>
+			</ul>
+			<ul style="margin-top:0px" id="Events">
+			  <li><strong>September 23, 2021.</strong> Pablo Barenbaum is selected as CONICET researcher within LoReL at Universidad Nacional de Quilmes.</li>
+			  <li><strong>September 21, 2021.</strong> Alejandro D&iacute;az-Caro and Mauro Jaskelioff obtained a PIP-CONICET project for the period 2021-2023.</li>
+			  <li><strong>September 10, 2021.</strong> Alejandro D&iacute;az-Caro and Gilles Dowek won the Best Paper Award (first place shared with another work) at <a href="https://ictac2021.github.io/programme.html#CLOSING">ICTAC 2021</a> for their paper <a href="https://doi.org/10.1007/978-3-030-85315-0_11">A New Connective in Natural Deduction, and its Application to Quantum Computing</a>.</li>
+			  <li><strong>July 2021.</strong> Alejandro D&iacute;az-Caro has been elected member of the Steering Committee of FSCD for the period 2021-2024.</li>
+			  <li><strong>June 4, 2021.</strong> Rafael Romero and Alejandro D&iacute;az-Caro got a presentation accepted at <a href="https://mat.unb.br/lsfa2021/">LSFA 2021</a>.</li>
+			  <li><strong>May 29 2021.</strong> Malena Ivnisky got a presentation accepted at <a href="https://sites.google.com/g.uporto.pt/wil2021">Women in Logic 2021</a>.</li>
+			  <li><strong>May 17 2021.</strong> Malena Ivnisky and Alejandro D&iacute;az-Caro, toghether with Hern&aacute;n Melgratti and Beno&icirc;t Valiron, got a presentation accepted at <a href="https://types21.liacs.nl/">TYPES 2021</a>.</li>
+			  <li><strong>May 7 2021.</strong> Alejandro D&iacute;az-Caro got two presentations accepted at <a href="https://qpl2021.eu/">QPL 2021</a>, <a href="https://arxiv.org/abs/2012.05887">one with Octavio Malherbe</a> and <a href="https://arxiv.org/abs/2012.08994">one with Gilles Dowek</a>.</li>
+			  <li><strong>April 20, 2021.</strong> Federico Lochbaum <a href="https://www.youtube.com/watch?v=o4ytgPbRMl0">defends his Licenciatura thesis</a> at Universidad Nacional de Quilmes, supervised by Pablo Barenbaum.</li>
+			  <li><strong>April 15, 2021.</strong> Alejandro D&iacute;az-Caro will give an invited talk at  <a href="https://mat.unb.br/lsfa2021/">LSFA 2021</a>.</li>
+			  <li><strong>April 13, 2021.</strong> Cristian Sottile gives a talk at <a href="https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html">Midlands Graduate School 2021</a>.</li>
+			  <li><strong>February 27, 2021.</strong> Malena Ivnisky, Rafael Romero, and Cristian Sottile will be presenting their recent works at <a href="https://sites.google.com/view/jif-cyt-unq/p%C3%A1gina-principal">JIF 2021</a> on March 25-27, 2021.</li>
+			  <li><strong>February 12, 2021.</strong> A new project PICT has been granted for the period 2021-2023. Directed by Federico Holik, and with Alejandro D&iacute;az-Caro as a member.</li>
+			  <li><strong>December 13, 2020.</strong> Mariana Milicich has been granted with a scholarship for the Computer Science department at UBA to do a new intership within LoReL, under the mentorship of Pablo Barenbaum.</li>
+			  <li><strong>December 10, 2020.</strong> A new cooperation project has been stablished between LoReL members and Chile, Uruguay, and France. STIC-AmSud Project 21STIC10 "Qapla'". 2021-2022.</li>
+			  <li><strong>December 1, 2020.</strong> Malena Ivnisky has been granted with a UBA scholarship to do her PhD thesis at UBA within LoReL, under the direction of Alejandro D&iacute;az-Caro and Octavio Malherbe, starting in December 2020.</li>
+			  <li><strong>November 20, 2020.</strong> Pablo Barenbaum <a href="https://www.youtube.com/watch?v=uwzgFrOabNQ">defends his PhD thesis</a> entitled "Sem&aacute;ntica din&aacute;mica de c&aacute;lculos de sustituciones expl&iacute;citas a distancia".</li>
+			  <li><strong>October 15, 2020.</strong> Alejandro D&iacute;az-Caro gives <a href="https://ar.radiocut.fm/audiocut/faro-un-programa-ciencia-entrevista-a-alejandro-diaz-caro-sobre-computacion-cuantica/">an interview</a> to the radio show "El Faro - Un programa de ciencia" (FM Radio Noticias, Santa Rosa, La Pampa).</li>
+			  <li><strong>September 4, 2020.</strong> Cristian Sottile gives a talk at <a href="https://www.cs.kent.ac.uk/events/2020/ifl20/">IFL 2020</a> (joint work with Alejandro D&iacute;az-Caro and Pablo E. Mart&iacute;nez L&oacute;pez).</li>
+			  <li><strong>September 1st, 2020.</strong> Alejandro D&iacute;az-Caro gives a talk at the seminar of the <a href="https://quicc.dc.uba.ar/">QuICC Team</a>.</li>
+			  <li><strong>August 28, 2020.</strong> Malena Ivnisky defends her Licenciatura thesis (eq. Masters in the EU) at Universidad de Buenos Aires, supervised by Alejandro D&iacute;az-Caro and Hern&aacute;n Melgratti.</li>
+			  <li><strong>August 17, 2020.</strong> Cristian Sottile gives a talk at the <a href="http://www.macs.hw.ac.uk/splv/splv20/">Scottish Programming Languages and Verification Summer School 2020</a>.</li>
+			  <li><strong>July 23, 2020.</strong> Alejandro D&iacute;az-Caro gives a talk at <a href="http://sbl.org.br/pmwiki.php/LQ/Quarentena">"L&oacute;gicos em Quarentena"</a> seminar of the Brazilian Logic Society.</li>
+			  <li><strong>July 22, 2020.</strong> Andr&eacute;s Viso defends his PhD thesis at Universidad de Buenos Aires, which has been supervised by Eduardo Bonelli and Delia Kesner.</li>
+			  <li><strong>May 18, 2020.</strong> Alejandro D&iacute;az-Caro becomes the new director of LoReL, after many years of the direction of Eduardo Bonelli and Alejandro R&iacute;os.</li>
+			  <li><strong>May 12, 2020.</strong> Alejandro D&iacute;az-Caro gives a talk at FICH-UNL invited by the students union.</li> 
+			  <li><strong>May 4, 2020.</strong> Francisco Noriega defends his Licenciatura thesis (eq. Masters in the EU) at Universidad de Buenos Aires, supervised by Alejandro D&iacute;az-Caro.</li>
+			  <li><strong>April 1, 2020</strong> Rafael Romero and Cristian Sottile officially start their PhD fellowships.</li>
+			  <li><strong>March 19, 2020.</strong> Rafael Romero defends his Licenciatura thesis (eq. Masters in the EU) at Universidad de Buenos Aires, supervised by Alejandro D&iacute;az-Caro.</li>
+			  <li><strong>March 10, 2020.</strong> Cristian Sottile defends his Licenciatura thesis (eq. Masters in the EU) at Universidad Nacional de La Plata, supervised by Alejandro D&iacute;az-Caro and Pablo E. "Fidel" Mart&iacute;nez L&oacute;pez.</li>
+			  <li><strong>January 15, 2020.</strong> Cristian Sottile has been granted with a CONICET scholarship to do his PhD thesis at UBA within LoReL, under the direction of Alejandro D&iacute;az-Caro and Pablo E. Mart&iacute;nez L&oacute;pez, starting in April 2020.</li>
+			  <li><strong>January 15, 2020.</strong> Lucas Rafael Romero has been granted with a CONICET scholarship to do his PhD thesis at UBA within LoReL, under the direction of Alejandro D&iacute;az-Caro and Octavio Malherbe, starting in April 2020.</li>
+			  <li><strong>October 11, 2019.</strong> Alejandro D&iacute;az-Caro gives a seminar at <a href="http://ba-logic.com/wip-seminar/">BA-Logic</a>.</li>
+			  <li><strong>September 13, 2019.</strong> Pierre Vial gives a seminar at ICC.</li>
+			  <li><strong>September 12, 2019.</strong> Alejandro D&iacute;az-Caro gives a science popularization talk about quantum computing at <a href="http://sdc.dc.uba.ar">Semana de la computaci&oacute;n</a>. Exactas-UBA.</li>
+			  <li><strong>September 8 to 22, 2019.</strong> Alejandro R&iacute;os visits Antinio Bucciarelli and Delia Kesner at IRIF, France.</li>
+			  <li><strong>September 5 to October 5, 2019.</strong> Andr&eacute;s Viso visits Antinio Bucciarelli and Delia Kesner at IRIF, France.</li>
+			  <li><strong>September 2 to 6, 2019.</strong> Alejandro D&iacute;az-Caro visits Octavio Malherbe at UdelaR, Uruguay.</li>
+			  <li><strong>August 20, 2019.</strong> The <a href="http://locic.web.unq.edu.ar/8vo-encuentro/">eighth LoCIC meeting</a> is taking place at FI-UBA.</li>
+			  <li><strong>August 1st, 2019.</strong> Agust&iacute;n Borgna defends his <a href="https://www.dc.uba.ar/event/defensa-tesis-licenciatura-agustin-borgna/">Licenciatura thesis</a> (eq. Masters in the EU) at Universidad de Buenos Aires, supervised by Alejandro D&iacute;az-Caro.</li>
+			  <li><strong>July 2, 2019.</strong> ICC has been chosen to organize <a href="http://fscd2021.dc.uba.ar">FSCD 2021</a>. Alejandro D&iacute;az-Caro will be the chair of the organisation committee.</li>
+			  <li><strong>June 19, 2019.</strong> Alejandro D&iacute;az-Caro visits Delia Kesner and Beniamino Accattoli at IRIF, France.</li>
+			  <li><strong>June 17, 18, 20, and 21, 2019.</strong> Alejandro D&iacute;az-Caro visits Gilles Dowek at LSV, France.</li>
+			  <li><strong>June 11 to 14, 2019.</strong> Alejandro D&iacute;az-Caro visits Beno&icirc;t Valiron at LRI, France.</li>
+			  <li><strong>May 22 to 24, 2019.</strong> The <a href="https://sites.google.com/view/funlep/segundo-encuentro">second FunLeP meeting</a> is taking place at UNQ.</li>
+			  <li><strong>May 14 to 17, 2019.</strong> Alejandro D&iacute;az-Caro visits Alexandre Miquel and Beno&icirc;t Valiron (who is visiting) at Universidad de la Rep&uacute;bica, Montevideo, Uruguay.</li>
+			  <li><strong>May 2nd, 2019.</strong> We have a <a href="http://sites.google.com/view/jornada-lorel-2019">day of LoReL team</a>, with talks by all the Ph.D. and Masters students.</li>
+			  <li><strong>April 9 to 14, 2019.</strong> Alejandro D&iacute;az-Caro visits Octavio Malherne at Universidad de la Rep&uacute;bica, Montevideo, Uruguay.</li>
+			  <li><strong>March 15th, 2019.</strong> Alejandro D&iacute;az-Caro and Pablo Barenbaum give talks at the ICC day, Buenos Aires, Argentina.</li>
+			  <li><strong>March 13th, 2019.</strong> Alejandro D&iacute;az-Caro gives a talk at the <a href="https://quantuminternationalnet.com/Workshops">V International Workshop on Quantum Mechanics and Quantum Information: Physical, Philosophical and Logical Perspectives</a> at Universidad CAECE, Buenos Aires, Argentina.</li>
+			  <li><strong>February 18 to 22, 2019.</strong> Alejandro D&iacute;az-Caro gives a talk and a mini-course at the <a href="http://www.mat.unb.br/verao2019/workshop_en.html">XI Summer Workshop in Mathematics</a> at Universidade de Bras&iacute;lia, Brazil.</li>
+			  <li><strong>January 16 to 27, 2019.</strong> Alejandro D&iacute;az-Caro visits Federico Olmedo at Universidad de Chile, Santiago, Chile.</li>
+			  <li><strong>December 3 to 20, 2018.</strong> Alejandro D&iacute;az-Caro visits Gilles Dowek at ENS Paris-Cachan and Beno&icirc;t Valiron at Universit&eacute; Paris-Sud, France.</li>
+			  <li><strong>November 22, 2018.</strong> Alejandro D&iacute;az-Caro gives a talk at the <a href="https://sites.google.com/view/viiijfc">VIII Conference on Quantum Foundations: Quantum Logic &amp; Quantum Structures</a>, held at CAECE, Buenos Aires, Argentina.</li>
+			  <li><strong>November 17 to December 16, 2018.</strong> Andr&eacute;s Viso visits Delia Kesner and Antonio Bucciarelli at IRIF, Universit&eacute; Paris Diderot, France.</li>
+			  <li><strong>November 17 to 30, 2018.</strong> Alejandro R&iacute;os visits Delia Kesner and Antonio Bucciarelli at IRIF, Universit&eacute; Paris Diderot, France</li>
+			  <li><strong>November 15, 2018.</strong> Malena Ivnisky gives a talk at a Master's seminar event at LRI about her master's thesis, France.</li>
+			  <li><strong>November 12 to 24, 2018.</strong> Malena Ivnisky visits Beno&icirc;t Valiron at Universit&eacute; Paris-Sud, France.</li>
+			  <li><strong>October 27 to 30, 2018.</strong> Alejandro D&iacute;az-Caro visits Octavio Malherbe at Universidad de la Rep&uacute;blica, Uruguay.</li>
+			  <li><strong>September 6, 2018.</strong> <a href="http://locic.web.unq.edu.ar/6to-encuentro/">6ta Jornada de L&oacute;gica, Computaci&oacute;n e Informaci&oacute;n Cu&aacute;ntica</a> takes place at ICC (Exactas-UBA).</li>
+			  <li><strong>August 17, 2018.</strong> <a href="https://sites.google.com/view/funlep/primer-encuentro">1er Encuentro de Fundamentos de Lenguajes de Programaci&oacute;n (FunLeP)</a> takes place at CIFASIS (Rosario). LoReL members are part of FunLeP organisation.</li>
+			  <li><strong>July 2-16, 2018.</strong> Alejandro D&iacute;az-Caro visits <a href="https://sites.google.com/site/marcosvillagrahome">Marcos Villagra</a> at <a href="http://www.cc.pol.una.py/">NIDTEC</a>, <a href="http://www.una.py">Universidad Nacional de Asunci&oacute;n</a>, Paraguay.</li>
+			  <li><strong>June 28, 2018.</strong> Gonzalo Ciruelos defends his <a href="http://dc.sigedep.exactas.uba.ar/media/academic/grade/thesis/tesis-gciruelos.pdf">licenciatura thesis</a> (eq. masters in the eu) at universidad de buenos aires, supervised by Pablo Barenbaum.</li>
+			  <li><strong>June 27, 2018.</strong> Juan Pablo Rinaldi defends his <a href="https://dcc.fceia.unr.edu.ar/es/lcc/tesinas-grado/tesinas/demostrando-normalizaci%C3%B3n-fuerte-sobre-una-extensi%C3%B3n-cu%C3%A1ntica-del-lambda">Licenciatura thesis</a> (eq. Masters in the EU) at Universidad Nacional de Rosario, supervised by Alejandro D&iacute;az-Caro.</li>
+			  <li><strong>May 21, 2018.</strong> The <a href="http://infinis.org/?page_id=1033">Logic and Foundations of Programming Languages Day</a> takes place at Exactas-UBA.</li>
+			  <li><strong>April 5, 2018.</strong> Agust&iacute;n Borgna gives a seminar at <a href="http://deducteam.gforge.inria.fr/">Deducteam</a> at <a href="http://www.lsv.fr/" target="_blank">LSV</a>, ENS Paris-Saclay, Cachan, France.</li>
+			  <li><strong>April 2 to 6, 2018.</strong> Alejandro D&iacute;az-Caro visits <a href="http://deducteam.gforge.inria.fr/">Deducteam</a> at <a href="http://www.lsv.fr/">LSV</a>, ENS Paris-Saclay, Cachan, France.</li>
+			  <li><strong>March 26 to 30, 2018.</strong> Alejandro D&iacute;az-Caro visits <a href="http://modhel.lri.fr/">ModHel</a> at <a href="http://www.lri.fr/">LRI</a> Universit&eacute; Paris-Saclay, Orsay, France.</li>
+			  <li><strong>March 19 to 22, 2018.</strong> Alejandro D&iacute;az-Caro gives a seminar at <a href="http://homepages.inf.ed.ac.uk/cheunen/cvqt/">CVQT</a> in Edinburgh, UK.</li>
+			  <li><strong>March 9, 2018.</strong> Alejandro D&iacute;az-Caro gives a seminar at <a href="https://wtpc.github.io/">WTPC</a> in UNQ.</li>
+			  <li><strong>March 1, 2018.</strong> <a href="http://locic.web.unq.edu.ar/4to-encuentro/">4ta Jornada de L&oacute;gica, Computaci&oacute;n e Informaci&oacute;n Cu&aacute;ntica</a> takes place at UNQ.</li>
+			  <li><strong>December, 2017.</strong> Alejandro D&iacute;az-Caro visits <a href="http://www.lsv.fr/">LSV</a> at <a href="http://www.ens-cachan.fr/">ENS-Cachan</a>, Paris.</li>
+			  <li><strong>November, 2017.</strong> Andr&eacute;s Viso visits <a href="https://www.irif.fr/en/index">IRIF</a> at <a href="https://www.univ-paris-diderot.fr/">Universit&eacute; Paris Diderot</a>, Paris.</li>
+			  <li><strong>October 25-27, 2017.</strong> Alejandro D&iacute;az-Caro gives a seminar at the <a href="http://jcc.dcc.fceia.unr.edu.ar/2017/">XV JCC</a> in Rosario.</li>
+			  <li><strong>October 19, 2017.</strong> <a href="http://www.infinis.org/?lang=es">LIA INFINIS</a> workshop takes place at UBA.</li>
+			  <li><strong>August, 2017.</strong> Pablo Barenbaum visits <a href="https://www.stevens.edu/">Stevens Institute of Technology</a> in Hoboken, NJ.</li>
+			  <li><strong>July 24-29, 2017.</strong> Alejandro D&iacute;az-Caro gives a course at the <a href="https://www.dc.uba.ar/events/eci/2017">ECI</a> 2017 in Buenos Aires.</li>
+			  <li><strong>April 25, 2017.</strong> Alejandro D&iacute;az-Caro gives a seminar in the <a href="http://www.iflp.unlp.edu.ar/">IFLP</a>, La Plata.</li>
+			  <li><strong>April 20-21, 2017. </strong>Alejandro D&iacute;az-Caro visits at <a href="https://www.fing.edu.uy/">Facultad de Ingenier&iacute;a (UdelaR)</a>, Montevideo.</li>
+			  <li><strong>April 3-12, 2017.</strong> Alejandro D&iacute;az-Caro visits at <a href="http://www.ens-cachan.fr/">ENS-Cachan</a>, Paris.</li>
+			  <li><strong>March 23, 2017.</strong> <a href="http://computacioncuantica.blogspot.com.ar/2017/03/jornada-de-logica-computacion-e.html">Jornada de l&oacute;gica, computaci&oacute;n e informaci&oacute;n cu&aacute;ntica</a> takes place at UNQ.</li>
+			  <li><strong>December 5-6, 2016.</strong> <a href="http://diaz-caro.web.unq.edu.ar/foqcoss.html">FoQCoSS Kickoff Workshop</a> takes place at UNQ.</li>
+			  <li><strong>October 2016. </strong>Alejandro D&iacute;az-Caro gives a course at <a href="http://www.cacic2016.unsl.edu.ar/">CACIC 2016</a> in San Luis.</li>
+			  <li><strong>Jan/Dec 2016. </strong>Eduardo Bonelli stays at the <a href="http://www.stevens.edu/sit/">Stevens Institute of Technology</a> as an invited professor.</li>
+			  <li><strong>May 2016: </strong>Alejandro D&iacute;az-Caro visits <a href="http://www.ens-cachan.fr/">ENS-Cachan</a>, Paris.</li>
+			  <li><strong>Jan/Jul 2016. </strong>Alejandro D&iacute;az-Caro stays at <a href="http://en.unito.it/">Universit&agrave; di Torino</a> as an invited professor.</li>
+			  <li><strong>December 17, 2015. </strong>Juan Edi defends his <a href="http://www.dc.uba.ar/academica/tesis-de-licenciatura/2015/edi.pdf">Licenciatura thesis</a> (eq. Masters in the EU) at Universidad de Buenos Aires, supervised by Andr&eacute;s Viso and Eduardo Bonelli.</li>
+			  <li><strong>October 2015.</strong> Pablo Barenbaum visits <a href="http://www.pps.univ-paris-diderot.fr/">PPS Laboratoire</a> in Paris.</li>
+			  <li><strong>July 17.</strong> <a href="http://www.infinis.org/?lang=es">LIA INFINIS</a> workshop takes place at UBA.</li>
+			  <li><strong>July 2015.</strong> Thibaut Balabonski visits Buenos Aires.</li>
+			  <li><strong>July 2015.</strong> Abuzer Yakaryilmaz visits UBA for a course at the <a href="http://www.dc.uba.ar/events/eci/2015/">ECI 2015 Winter School</a>, and gives a seminar at UNQ.</li>
+			  <li><strong>May/Jun 2015. </strong>Andr&eacute;s Viso visits <a href="http://www.pps.univ-paris-diderot.fr/">PPS Laboratoire</a> in Paris.</li>
+			  <li><strong>Feb/Mar 2015.</strong> Bernard Serpette visits Buenos Aires.</li>
+			  <li><strong>Feb/May 2015. </strong>Pablo Barenbaum visits <a href="http://www.pps.univ-paris-diderot.fr">PPS Laboratoire</a> in Paris.</li>
+			  <li><strong>February 2015.</strong> Alejandro D&iacute;az-Caro gives the course at <a href="http://dc.exa.unrc.edu.ar/rio2015/">RIO 2015</a> in R&iacute;o Cuarto.</li>
+			  <li><strong>December 15, 2014. </strong>Gabriela Steren presents her PhD thesis at UBA.</li>
+			  <li><strong>November 7, 2014. </strong>Carlos Lombardi presents his <a href="http://www.dc.uba.ar/carreras/posgrados/doctorado/tesis-doc/tesislombardi/view">PhD thesis</a> at UBA.</li>
+			  <li><strong>November 5-6, 2014. </strong>Delia Kesner visits Buenos Aires.</li>
+			  <li><strong>November 2014. </strong>Jose Santos visits Buenos Aires.</li>
+			  <li><strong>August, 2014. </strong>Thibaut Balabonski visits Buenos Aires.</li>
+			  <li><strong>July 2014. </strong>Beta Ziliani gives a course on <a href="http://www.dc.uba.ar/events/eci/2014/cursos/ziliani"><strong>Coq</strong></a> at the <a href="http://www.dc.uba.ar/events/eci/2014/">ECI 2014 Winter School</a> at UBA.</li>
+			  <li><strong>November 2013.</strong> Mauricio Ayala-Rinc&oacute;n visits Buenos Aires.</li>
+			  <li><strong>October 2013. </strong>Delia Kesner visits UBA.</li>
+			  <li><strong>Sept/Oct 2013. </strong>Roel de Vrijer visits UBA.</li>
+			  <li><strong>July 2013.</strong> Jean-Jacques L&eacute;vy gives a course on <a href="http://www.dc.uba.ar/events/eci/2013/cursos/curso-levy"><strong>Reductions and casualty</strong></a> in the <a href="http://www.dc.uba.ar/events/eci/2013">ECI 2013 Winter School</a> at UBA.</li>
+			  <li><strong>May 2013. </strong>Delia Kesner visits UBA.</li>
+			  <li><strong>11 April 2013. </strong>First meeting of <a href="https://sites.google.com/site/lorellabs/seminar">LoReL seminar</a> at UBA.</li>
+			  <li><strong>February 2013. </strong>Pierre Lescanne visits UBA in February 2013.</li>
+			  <li><strong>9-11 Oct 2012. </strong>Beniamino Accattoli gives a short course on <a href="https://sites.google.com/site/lorellabs/events/cursobeniamino">Linear Logic, Lambda-calculus, and Explicit Substitutions</a>.</li>
+			  <li><strong>03 Oct 2012. </strong>Mini Workshop on <a href="https://sites.google.com/site/lorellabs/events/miniworkshopoctober2012"><strong>Rewriting and Type Theory</strong></a> takes place at UBA.</li>
+			  <li><strong>01 Oct 2012. </strong>INFINIS Business meeting takes place at UBA.</li>
+			  <li><strong>October 2012. </strong>Roel de Vrijer visits Buenos Aires.</li>
+			  <li><strong>October 2012. </strong>Delia Kesner and Beniamino Accatolli visits Buenos Aires.</li>
+			  <li><strong>August 2012. </strong>Mauricio Ayala-Rinc&oacute;n visits UNQ in the context of a STIC-AmSud cooperation project.</li>
+			  <li><strong>07 Sep 2012. </strong>Carlos Lombardi gives a talk at <a href="http://www.glyc.dc.uba.ar/wollic12/satellite.php">INFINIS Meeting</a>.</li>
+			  <li><strong>03 Sep 2012. </strong>Eduardo Bonelli gives a talk at <a href="http://www.glyc.dc.uba.ar/wollic12/">WoLLIC 2012</a>, Sep 3-6, 2012.</li>
+			  <li><strong>29 May 2012. </strong>Delia Kesner presents a joint paper at <a href="http://rta2012.trs.cm.is.nagoya-u.ac.jp/">RTA 2012</a>.</li>
+			  <li><strong>22-23 May 2012.</strong> Eduardo Bonelli gives a 4 hour short course on  <strong><a href="http://www.mat.unb.br/~ayala/TCgroup/events.html">Normalisation for Dynamic Pattern Calculi</a></strong> at Universidad de Brasilia.</li>
+			</ul>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+			<h3 id="NoV"><br>Recent and upcoming visitors</h3>
+			<ul style="margin-bottom:0px" id="HomeV">
+			  <li><strong>February 2021.</strong> Federico Olmedo (U de Chile, Chile).</li>
+			  <li><strong>January 2021.</strong> Agust&iacute;n Borgna (U Paris-Saclay &amp; U Lorraine, France).</li>
+			  <li><strong>January 2021.</strong> Simon Perdrix (CNRS &amp; U Lorraine, France).</li>
+			  <li><strong>December 2021.</strong> Octavio Malherbe (UdelaR, Uruguay).</li>
+			  <li><strong>November 2021.</strong> Delia Kesner (IRIF, U Paris-Diderot, France).</li>
+			  <li><strong>November 2021.</strong> Gilles Dowek (Inria, U Paris-Saclay, France).</li>
+			</ul>
+			<ul style="margin-top:0px" id="Visitors">
+			  <li><strong>December 16-20, 2019 and February 18-22, 2020.</strong> Octavio Malherbe.</li>
+			  <li><strong>November 26 to December 6, 2019.</strong> Gilles Dowek.</li>
+			  <li><strong>November 13-22, 2019.</strong> Simon Perdrix.</li>
+			  <li><strong>November 8-22, 2019.</strong> Delia Kesner.</li>
+			  <li><strong>October 14-25, 2019.</strong> Ivan Marquez.</li>
+			  <li><strong>September 9 to October 4, 2019.</strong> Pierre Vial.</li>
+			  <li><strong>August 20 to September 30, 2019.</strong> Nely Plata-C&eacute;sar.</li>
+			  <li><strong>July 22-27, 2019.</strong> Pablo Arrighi and Beniamino Accattoli.</li>
+			  <li><strong>July 1st to 12, 2019.</strong> Federico Olmedo.</li>
+			  <li><strong>April 26-29, 2019.</strong> Octavio Malherbe.</li>
+			  <li><strong>April 8-22, 2019.</strong> Delia Kesner and Antonio Bucciarelli</li>
+			  <li><strong>March 11-14, 2019.</strong> Marcos Villagra.</li>
+			  <li><strong>February 26 to March 1, 2019.</strong> Octavio Malherbe.</li>
+			  <li><strong>September 20-23, 2018.</strong> Octavio Malherbe.</li>
+			  <li><strong>September 6, 2018.</strong> Marcos Villagra and Alexandre Miquel.</li>
+			  <li><strong>September 1-11, 2018.</strong> Delia Kesner.</li>
+			  <li><strong>July 23 to August 3, 2018.</strong> Gilles Dowek.</li>
+			  <li><strong>June 16-19, 2018.</strong> Octavio Malherbe.</li>
+			  <li><strong>May 18-22, 2018.</strong> Alexandre Miquel and Mauricio Guillermo.</li>
+			  <li><strong>May 14-27, 2018.</strong> Delia Kesner and Antonio Bucciarelli.</li>
+			  <li><strong>May 14-25, 2018.</strong> Beno&icirc;t Valiron.</li>
+			  <li><strong>April 19-22, 2018.</strong> Octavio Malherbe.</li>
+			  <li><strong>January 22-26, 2018.</strong> Octavio Malhebre.</li>
+			  <li><strong>November 8-9, 2017.</strong> Marcos Villagra.</li>
+			  <li><strong>October 12-15, 2017.</strong> Octavio Malherbe.</li>
+			  <li><strong>September 13-22, 2017.</strong> Delia Kesner.</li>
+			  <li><strong>July 10-21, 2017.</strong> Simon Perdrix.</li>
+			  <li><strong>June 22-30, 2017.</strong> Gilles Dowek.</li>
+			  <li><strong>May 4-14, 2017.</strong> Delia Kesner.</li>
+			  <li><strong>March 23-26, 2017.</strong> Octavio Malherbe.</li>
+			  <li><strong>December 2016.</strong> Gilles Dowek, Pablo Arrighi, Simon Martiel, Stefano Facchini, Beno&icirc;t Valiron, Renaud Vilmart, Octavio Malherbe.</li>
+			  <li><strong>April 2016.</strong> Delia Kesner.</li>
+			  <li><strong>July 2015.</strong> Abuzer Yakaryilmaz and Thibaut Balabonski.</li>
+			  <li><strong>Feb/Mar 2015.</strong> Bernard Serpette.</li>
+			  <li><strong>November 5-6, 2014.</strong> Delia Kesner.</li>
+			  <li><strong>November 2014.</strong> Jose Santos.</li>
+			  <li><strong>September 2014.</strong> Delia Kesner.</li>
+			  <li><strong>August 2014.</strong> Thibaut Balabonski.</li>
+			  <li><strong>May 5-16, 2014.</strong> Delia Kesner and Antonio Bucciarelli.</li>
+			  <li><strong>November 2013.</strong> Mauricio Ayala-Rincon.</li>
+			  <li><strong>October 2013.</strong> Delia Kesner visited UBA.</li>
+			  <li><strong>Sept/Oct 2013.</strong> Roel de Vrijer visited UBA.</li>
+			  <li><strong>July 2013.</strong> Jean-Jacques L&eacute;vy visited UBA for a course in the ECI 2013.</li>
+			  <li><strong>May 2013.</strong> Delia Kesner.</li>
+			  <li><strong>February 2013.</strong> Pierre Lescanne. He also gave a course in the R&iacute;o Cuarto summer school.</li>
+			  <li><strong>October 2012.</strong> Roel de Vrijer.</li>
+			  <li><strong>August 2012.</strong> Mauricio Ayala Rinc&oacute;n visited UNQ during the end of August 2012 for two weeks in the context of a STIC-AmSud cooperation project.</li>
+			</ul>
+		      </td>
+		    </tr>
+		    <tr id="Projects">
+		      <td>
+			<h3>Current projects</h3>
+			<ol>
+			  <li>PIP 11220200100368CO. Fundamentos de lenguajes para computaci&oacute;n cu&aacute;ntica y consecuencias en sistemas cl&aacute;sicos. CONICET. 2021-2023.</li>
+			  <li>PICT 2019-1272. Estructuras l&oacute;gicas y algebraicas vinculadas al procesamiento de la informaci&oacute;n cu&aacute;ntica. MinCyT. 2021-2024.</li>
+			  <li>STIC-AmSud. Qapla' - Quantum Aspects of Programming Languages. Argentina: Universidad Nacional de Quilmes and Universidad de Buenos Aires. Brazil: Universidade Federal de Santa Maria. France: INRIA, CNRS/LORIA, Universit&eacute; Aix-Marseille, CentraleSup&eacute;lec/LRI. Chile: Universidad de Chile. Uruguay: Universidad de la Rep&uacute;blica. 2021-2022.</li>
+			  <li>PUNQ 1342/19. Fundamentos de lenguajes de programaci&oacute;n: sistemas de pruebas y computaci&oacute;n cu&aacute;ntica. Universidad Nacional de Quilmes. 2019-2021.</li>
+			  <li>We participate in the LIA SINFIN, a French-Argentinean Laboratory (Laboratoire Internationale Associ&eacute;) between Centre National de la Recherche Scientifique(CNRS) and Universit&eacute; Paris Diderot, on the one hand, and Consejo Nacional de Investigaciones Cient&iacute;ficas y T&eacute;cnicas (CONICET) and the Universidad de Buenos Aires, on the other. It is devoted to research in Computer Science. Specific focus is placed on formal methods, for modeling, verification and development of complex software artifacts. 2019-2024.</li>
+			  <li>ECOS Sud A17C01. Semantics and implementation of functional programming. 2018-2020. Extended until 2021 due to the COVID-19 crisis.</li>
+			  <li>ECOS Sud A17C03. Quantum calculi. 2018-2020. Extended until 2021 due to the COVID-19 crisis.</li>
+			</ol>
+			<h3>Past projects</h3>
+			<ol>
+			  <li>PICT 2015-1208. Fundamentos de lenguajes de programaci&oacute;n cu&aacute;ntica: hacia una l&oacute;gica computacional. MinCyT. 2017-2019.</li>
+			  <li>PUNQ 1370/17. Fundamentos de lenguajes de programaci&oacute;n cu&aacute;nticos y sus consecuencias en sistemas cl&aacute;sicos. Universidad Nacional de Quilmes. 2017-2019.</li>
+			  <li>We participated in INFINIS, a French-Argentinean Laboratory (Laboratoire Internationale Associ&eacute;) between Centre National de la Recherche Scientifique(CNRS) and Universit&eacute; Paris Diderot, on the one hand, and Consejo Nacional de Investigaciones Cient&iacute;ficas y T&eacute;cnicas (CONICET) and the Universidad de Buenos Aires, on the other. It is devoted to research in Computer Science. Specific focus is placed on formal methods, for modeling, verification and development of complex software artifacts. 2013-2018.</li>
+			  <li>STIC-AmSud. FoQCoSS - Foundations of Quantum Computation: Syntax and Semantics. Argentina: Universidad Nacional de Quilmes, Universidad de Buenos Aires. Brazil: Universidade Federal de Santa Maria. France: INRIA, CNRS/LORIA, Universit&eacute; Aix-Marseille, CentraleSup&eacute;lec/LRI. 2016-2017.</li>
+			  <li>PUNQ 1425/15. Fundamentos de lenguajes de programaci&oacute;n cu&aacute;nticos y sus consecuencias en sistemas cl&aacute;sicos. Universidad Nacional de Quilmes. 2015-2017.</li>
+			  <li>PUNQ 1416/15. Programaci&oacute;n funcional: fundamentos revisados. Universidad Nacional de Quilmes. 2015-2016.</li>
+			  <li>ECOS Sud. Din&aacute;mica De Cá&aacute;lculos De Sustituciones Explíc&iacute;citas A Distancia.</li>
+			  <li>STIC-AmSud. Formal Development of Computer Programs and Applications. Argentina: Universidad Nacional de Quilmes. Brazil: Universidade de Bras&iacute;lia. France: Laboratoire PPS, Universit&eacute; Paris VII. 2012-2013.</li>
+			  <li>UBACyT 20020100100372 Diversas extensiones de sistemas de reescritura para la implementaci&oacute;n eficiente de lenguajes de programaci&oacute;n. Universidad de Buenos Aires. 2011-2014.</li>
+			  <li>PUNQ 1011/11. T&eacute;cnicas rigurosas para el desarrollo de software confiable. Universidad Nacional de Quilmes. 2011-2012.</li>
+			</ol>
+		      </td>
+		    </tr>
+		    <tr id="Address">
+		      <td>
+			<table border="1" cellspacing="10">
+			  <tr>
+			    <td align="center">
+			      Oficinas 2108<br>
+			      <strong>Instituto de Ciencias de la Computaci&oacute;n</strong><br>
+			      FCEN, Universidad de Buenos Aires<br>
+			      Pabell&oacute;n Cero + Infinito. Ciudad Universitaria<br>
+			      C1428EGA Ciudad Aut&oacute;noma de Buenos Aires<br>
+			      Argentina
+			    </td>
+			    <td align="center">
+			      Oficinas 77<br>
+			      Depto. de Ciencia y Tecnolog&iacute;a<br>
+			      <strong>Universidad Nacional de Quilmes</strong><br>
+			      Roque S&aacute;enz Pe&ntilde;a 352<br>
+			      B1876BXD Bernal<br>
+			      Provincia de Buenos Aires, Argentina
+			    </td>
+			  </tr>
+			  <tr>
+			    <td>
+			      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3785438829204!2d-58.442518584191525!3d-34.54396976184742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5cb82d2f7bf%3A0xbcc4701a1bdae266!2sCero%20%2B%20infinito!5e0!3m2!1ses-419!2sar!4v1640032342942!5m2!1ses-419!2sar" title="ICC (CONICET/UBA)" width="300" height="500" frameborder="0" style="border:0" class="map_embed" scrolling="no"></iframe>
+			    </td>
+			    <td>
+			      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2984.8481772720584!2d-58.28083896959018!3d-34.70671055961528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a331fe293db393%3A0x2a0a79e3ff445dfe!2sUniversidad+Nacional+de+Quilmes!5e0!3m2!1ses-419!2sus!4v1536505467687" title="UNQ" width="300" height="500" frameborder="0" style="border:0" class="map_embed" scrolling="no"></iframe>
+			    </td>
+			  </tr>
+			</table>
+		      </td>
+		    </tr>
+		  </table>
+		  <!-- FOOTER -->
+		  <br>
+		  <div class="c5" id="footer">
+		    <center>
+		      <small>
+			<br>
+			Last modified: 
+			<!-- MODIF -->
+			December 20, 2021
+			<!-- MODIF -->
+		      </small>
+		    </center>
+		    <a href="http://validator.w3.org/check?uri=https%3A%2F%2Florel-team.github.io"><IMG style="border: 0;" width='80' height='15' src="images/w3c-html401.jpg" alt="[Valid HTML 4.01!]"></a>
+		    <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Florel-team.github.io&amp;profile=css3"><IMG style="border: 0;" height='15' width='80' src="images/w3c-css.jpg" alt="[Valid CSS!]"></a>
+		  </div>
+		      </td>
+		      <td width="1%" class=fondo></td>
+	      </tr>
+	    </table>
+      </table>
+    </div>
+    <script>
+      showHide('Home');
+      tab();
+    </script>
+  </BODY>
+</HTML>
