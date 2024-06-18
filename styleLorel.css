@@ -37,6 +37,8 @@ td.bibtexnumber {
   padding:0 0px;
   position:relative;
   z-index:19;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
 }
 
 .abh:after {
@@ -94,17 +96,19 @@ td.bibtexnumber {
   width: 100%;	
   background: #ccc;
   color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
 }
 
 #body {	background-color: #fff; }
 
-.fondo { background-image: url("images/bg.gif"); }
+/*.fondo { background-image: url("images/bg.gif"); } */
 
 #footer a:link, #footer a:visited {color: #4d88c3; }
 
 body {
   overflow-y: scroll;
-  background-image: url("images/bg.gif");
+/*  background-image: url("images/bg.gif"); */
   margin:0 0 0 0;
   color:#333;
   font-size:15px;
@@ -133,14 +137,40 @@ a:visited {
   text-decoration:none;
 }
 
-h3 {
+/*h3 {
   margin-top: 0ex;
   margin-bottom: 0ex;
   padding-bottom: 0; 
   background: white;
   color: #8f8f8f;
   line-height: 80%;
-} 
+} */
+
+
+h3 {
+  margin-top: 0ex;
+  margin-bottom: 0ex;
+  padding: 5px; 
+  padding-left: 15px;
+  background: #eee;
+  border-radius: 10px;
+  color: #8f8f8f;
+  line-height: 90%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+h2 {
+  background: #ccc;
+  border-radius: 10px;
+  color: #000;
+  line-height: 210%;
+  padding-left: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+
 
 .clarito {
   background: white;
